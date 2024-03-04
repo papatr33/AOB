@@ -1,0 +1,409 @@
+﻿No.,Trade date,Type,Name,Ticker,Buy/Sell,Call/Put,Currency,Spot price,Strike,Alert - % to strike ,Working delta,% Strike,Expiry day,Stock Qty,Ntl size (mn),Adj. Ntl - USD,Broker,% premium,Premium (USD),Status,PNL,备注,
+1,17-Aug-22,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,#NAME?,20.00,#NAME?,20.90,95.7%,19-Sep-22,"1,227,800",25.7,3.5,MS,1.78%,"67,283",Expired,#NAME?,"CNY premium - 455,744",#NAME?
+2,18-Aug-22,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,20.95,20.00,4.5%,20.20,99.0%,19-Sep-22,"437,200",8.8,1.3,MS,2.95%,"38,386",Expired,0,"CNY premium - 260,615",0
+3,26-Aug-22,OTC - Stock,,ONON US,Sell,Put,USD,16.56,18.66,-12.7%,20.74,90.0%,26-Sep-22,"240,000",5.0,4.5,MS,2.15%,"106,992",Exercised,"-504,000",,#NAME?
+4,13-Sep-22,OTC - Stock,,ONON US,Sell,Put,USD,17.14,18.00,-5.0%,19.28,93.4%,13-Oct-22,"260,000",5.0,4.7,MS,3.29%,"164,944",Exercised,"-223,600",,#NAME?
+5,20-Sep-22,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,20.35,19.50,4.2%,20.41,95.6%,20-Oct-22,"1,717,000",35.0,4.8,MS,1.32%,"66,104",Expired,0,"CNY premium - 463,518",0
+6,20-Oct-22,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,22.96,17.60,23.3%,20.70,85.0%,21-Nov-22,"1,693,000",35.1,4.3,MS,1.95%,"94,469",Expired,0,"CNY premium - 683,259/ CLSA在短期的报价可能更好",0
+7,4-Nov-22,OTC - Stock,,AMZN US,Sell,Put,USD,91.01,76.24,16.2%,89.69,85.0%,5-Dec-22,"22,500",2.0,1.7,MS,0.80%,"16,144",Expired,0,,0
+8,4-Nov-22,OTC - Stock,,ONON US,Sell,Put,USD,18.86,14.95,20.7%,17.59,85.0%,5-Dec-22,"225,000",4.0,3.4,MS,2.10%,"83,115",Expired,0,,0
+9,4-Nov-22,OTC - Stock,,PYPL US,Sell,Call,USD,73.62,89.69,21.8%,74.74,120.0%,5-Dec-22,"27,500",2.1,2.5,MS,0.49%,"10,071",Expired,0,,0
+10,4-Nov-22,OTC - Stock,,WOLF US,Sell,Put,USD,82.54,59.16,28.3%,73.95,80.0%,5-Dec-22,"13,700",1.0,0.8,MS,1.05%,"10,638",Expired,0,,0
+11,7-Nov-22,OTC - Stock,,TSLA US,Sell,Put,USD,173.44,159.20,8.2%,199.00,80.0%,8-Dec-22,"20,200",4.0,3.2,MS,1.36%,"54,613",Expired,0,,0
+12,10-Nov-22,OTC - Stock,,NTES US,Sell,Call,USD,69.35,74.64,7.6%,62.20,120.0%,12-Dec-22,"32,100",2.0,2.4,MS,1.03%,"20,566",Expired,0,,0
+13,10-Nov-22,OTC - Stock,,PYPL US,Sell,Call,USD,73.80,101.92,38.1%,84.93,120.0%,12-Dec-22,"23,600",2.0,2.4,MS,0.45%,"9,020",Expired,0,,0
+14,17-Nov-22,OTC - Stock,,SWAV US,Sell,Put,USD,216.00,193.60,10.4%,242.00,80.0%,19-Dec-22,"8,200",2.0,1.6,MS,0.70%,"13,891",Expired,0,,0
+15,18-Nov-22,OTC - Stock,,TSLA US,Sell,Put,USD,149.87,142.40,5.0%,178.00,80.0%,19-Dec-22,"11,200",2.0,1.6,MS,1.47%,"29,306",Expired,0,,0
+16,22-Nov-22,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1291.80,1265.47,2.0%,1488.79,85.0%,22-Dec-22,"1,326",2.0,1.7,MS,1.00%,"19,741",Expired,0,,0
+17,22-Nov-22,OTC - Stock,,RMS FP,Sell,Put,EUR,1486.50,1239.75,16.6%,1458.50,85.0%,16-Dec-22,"1,341",2.0,1.7,GS,0.50%,"9,779",Expired,0,GS 在RMS的报价上一直比MS好,0
+18,28-Nov-22,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1288.60,1250.76,2.9%,1471.48,85.0%,28-Dec-22,654,1.0,0.8,MS,0.90%,"8,661",Expired,0,,0
+19,28-Nov-22,OTC - Stock,,STAA US,Sell,Put,USD,46.82,50.15,-7.1%,59.00,85.0%,28-Dec-22,"33,500",2.0,1.7,MS,1.50%,"29,648",Exercised,"-111,555",,#NAME?
+20,28-Nov-22,OTC - Stock,,UMG NA,Sell,Call,EUR,22.52,25.65,13.9%,22.31,115.0%,28-Dec-22,"172,313",3.8,4.4,MS,0.37%,"14,216",Expired,0,,0
+21,29-Nov-22,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,26.26,16.67,36.5%,20.84,80.0%,30-Jan-23,"700,000",14.6,1.7,MS,1.00%,"20,370",Expired,0,"CNY premium - 145,933",0
+22,29-Nov-22,OTC - Stock,,PYPL US,Sell,Put,USD,70.56,66.13,6.3%,77.80,85.0%,29-Dec-22,"12,800",1.0,0.8,MS,0.90%,"8,963",Expired,0,,0
+23,1-Dec-22,OTC - Stock,,NTES US,Sell,Put,USD,76.45,54.48,28.7%,68.10,80.0%,3-Jan-23,"29,300",2.0,1.6,MS,0.72%,"14,366",Expired,0,,0
+24,1-Dec-22,OTC - Stock,,ONON US,Sell,Call,USD,17.07,23.38,37.0%,19.48,120.0%,3-Jan-23,"54,400",1.1,1.3,MS,0.80%,"8,481",Expired,0,,0
+25,5-Dec-22,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1284.20,1233.52,3.9%,1451.20,85.0%,5-Jan-23,653,0.9,0.8,GS,1.05%,"9,950",Expired,0,,0
+26,5-Dec-22,OTC - Stock,,ALGN US,Sell,Put,USD,219.82,160.86,26.8%,189.24,85.0%,5-Jan-23,"10,600",2.0,1.7,MS,1.19%,"23,871",Expired,0,,0
+27,5-Dec-22,OTC - Stock,,AMZN US,Sell,Put,USD,83.12,77.60,6.6%,91.30,85.0%,5-Jan-23,"21,900",2.0,1.7,GS,0.64%,"12,796",Expired,0,,0
+28,5-Dec-22,OTC - Stock,,STAA US,Sell,Call,USD,58.15,77.12,32.6%,64.27,120.0%,5-Jan-23,"15,600",1.0,1.2,GS,0.75%,"7,519",Expired,0,,0
+29,5-Dec-22,OTC - Stock,,TSLA US,Sell,Put,USD,110.34,148.00,-34.1%,185.00,80.0%,5-Jan-23,"5,400",1.0,0.8,MS,1.08%,"10,789",Exercised,"-203,364",,"-595,836"
+30,6-Dec-22,OTC - Stock,,DIM FP,Sell,Put,EUR,353.00,260.49,26.2%,325.61,80.0%,6-Feb-23,"5,877",1.9,1.5,MS,0.86%,"16,457",Expired,0,,0
+31,6-Dec-22,OTC - Stock,,TSLA US,Sell,Put,USD,113.06,140.40,-24.2%,175.50,80.0%,6-Jan-23,"5,600",1.0,0.8,MS,1.26%,"12,383",Exercised,"-153,104",,"-633,136"
+32,6-Dec-22,OTC - Stock,,UMG NA,Sell,Call,EUR,23.55,26.24,11.4%,22.82,115.0%,20-Jan-23,"41,917",1.0,1.1,GS,0.81%,"7,746",Expired,0,,0
+33,6-Dec-22,OTC - Stock,,UMG NA,Sell,Call,EUR,23.50,26.18,11.4%,22.76,115.0%,6-Jan-23,"41,897",1.0,1.1,MS,0.31%,"2,996",Expired,0,,0
+34,7-Dec-22,OTC - Stock,,PDD US,Sell,Put,USD,95.52,67.42,29.4%,84.28,80.0%,9-Jan-23,"23,700",2.0,1.6,GS,1.25%,"24,967",Expired,0,,0
+35,8-Dec-22,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,21.07,23.00,9.2%,20.00,115.0%,9-Jan-23,"698,000",14.0,2.3,MS,1.00%,"20,032",Expired,0,"CNY premium - 139,600",0
+36,8-Dec-22,OTC - Stock,,NTES US,Sell,Call,USD,79.52,86.40,8.7%,72.00,120.0%,9-Jan-23,"27,700",2.0,2.4,MS,0.97%,"19,346",Expired,0,,0
+37,8-Dec-22,OTC - Stock,,ONON US; PDD US; TSLA US,Sell,Put,USD,119.77,14.26 / 72.64 / 137.39,-14.7%,17.82 / 90.8 / 171.74,80.0%,9-Jan-23,,1.0,0.8,GS,2.00%,"20,000",Exercised,"-102,609",Custom basket - TSLA got exercised,#NAME?
+38,8-Dec-22,OTC - Stock,,RMS FP,Sell,Put,EUR,1628.00,1283.50,21.2%,1510.00,85.0%,20-Jan-23,"1,257",1.9,1.6,GS,0.82%,"15,522",Expired,0,,0
+39,8-Dec-22,OTC - Stock,,WISE LN,Sell,Put,GBP,5.47,5.24,4.3%,6.55,80.0%,20-Jan-23,"108,565",0.7,0.6,GS,1.00%,"7,111",Expired,0,,0
+40,9-Dec-22,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,76.43,97.44,27.5%,81.20,120.0%,9-Jan-23,"85,709",7.0,1.2,MS,0.80%,"8,003",Expired,0,"CNY premium - 55,676",0
+41,9-Dec-22,OTC - Stock,,STAA US,Sell,Call,USD,65.44,74.74,14.2%,62.28,120.0%,9-Jan-23,"16,100",1.0,1.2,GS,0.85%,"8,523",Expired,0,,0
+42,9-Dec-22,OTC - Stock,,WISE LN,Sell,Put,GBP,5.47,5.06,7.6%,6.32,80.0%,20-Jan-23,"128,871",0.8,0.7,GS,1.00%,"8,145",Expired,0,,0
+43,13-Dec-22,OTC - Stock,,RMS FP,Sell,Put,EUR,1628.00,1304.75,19.9%,1535.00,85.0%,20-Jan-23,"1,240",1.9,1.6,GS,0.70%,"13,324",Expired,0,,0
+44,13-Dec-22,OTC - Stock,,SWAV US,Sell,Put,USD,201.91,181.24,10.2%,226.55,80.0%,13-Jan-23,"8,900",2.0,1.6,MS,0.96%,"19,356",Expired,0,,0
+45,13-Dec-22,OTC - Stock,,TSLA US,Sell,Put,USD,122.40,131.11,-7.1%,163.89,80.0%,13-Jan-23,"12,000",2.0,1.6,MS,1.50%,"29,500",Exercised,"-104,520",,"-1,468,800"
+46,14-Dec-22,OTC - Stock,,STAA US,Sell,Put,USD,73.93,47.12,36.3%,58.90,80.0%,17-Jan-23,"16,900",1.0,0.8,MS,1.37%,"13,637",Expired,0,,0
+47,14-Dec-22,OTC - Stock,,TSLA US,Sell,Put,USD,133.42,126.67,5.1%,156.69,80.8%,20-Jan-23,"6,300",1.0,0.8,MS,2.16%,"21,368",Expired,0,,0
+48,14-Dec-22,OTC - Stock,,NTES US,Sell,Call,USD,89.06,87.96,-1.2%,73.30,120.0%,17-Jan-23,"27,500",2.0,2.4,MS,0.86%,"17,336",Exercised,"-30,250",,0
+49,14-Dec-22,OTC - Stock,,ONON US,Sell,Put,USD,21.36,14.31,33.0%,17.89,80.0%,17-Jan-23,"55,900",1.0,0.8,GS,0.71%,"7,102",Expired,0,,0
+50,14-Dec-22,OTC - Stock,,ONON US,Sell,Put,USD,21.36,15.10,29.3%,17.76,85.0%,17-Jan-23,"56,100",1.0,0.8,MS,1.36%,"13,548",Expired,0,,0
+51,14-Dec-22,OTC - Stock,,MRNA US,Sell,Put,USD,190.69,179.30,6.0%,210.94,85.0%,17-Jan-23,"4,700",1.0,0.8,GS,1.78%,"17,647",Expired,0,,0
+52,16-Dec-22,OTC - Stock,,RMS FP,Sell,Put,EUR,1628.00,1257.15,22.8%,1479.00,85.0%,20-Jan-23,665,1.0,0.8,GS,0.63%,"6,242",Expired,0,,0
+53,16-Dec-22,OTC - Stock,,WISE LN,Sell,Put,GBP,5.47,5.07,7.4%,5.96,85.0%,20-Jan-23,"137,350",0.8,0.7,MS,1.20%,"9,823",Expired,0,,0
+54,16-Dec-22,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1323.20,1172.52,11.4%,1379.44,85.0%,20-Jan-23,682,0.9,0.8,MS,1.00%,"9,408",Expired,0,,0
+55,19-Dec-22,OTC - Stock,,DIM FP,Sell,Put,EUR,330.60,253.11,23.4%,297.78,85.0%,17-Feb-23,"3,290",1.0,0.8,GS,1.65%,"16,165",Expired,0,,0
+56,19-Dec-22,OTC - Stock,,AMZN US,Sell,Put,USD,102.24,70.00,31.5%,85.36,82.0%,27-Jan-23,"11,700",1.0,0.8,MS,0.70%,"7,008",Expired,0,,0
+57,19-Dec-22,OTC - Stock,,STAA US,Sell,Put,USD,70.63,39.99,43.4%,49.99,80.0%,20-Jan-23,"20,000",1.0,0.8,MS,1.28%,"12,796",Expired,0,,0
+58,20-Dec-22,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,86.60,96.96,12.0%,80.80,120.0%,1-Feb-23,"87,000",7.0,1.2,MS,0.75%,"7,552",Expired,0,"CNY premium - 52,722",0
+59,20-Dec-22,OTC - Stock,,EVO SS,Sell,Put,SEK,1317.00,891.90,32.3%,991.00,90.0%,17-Feb-23,"10,485",10.4,0.9,MS,2.25%,"22,458",Expired,0,"SEK premium-233,788",0
+60,21-Dec-22,OTC - Stock,,UMG NA,Sell,Call,EUR,22.52,26.01,15.5%,22.62,115.0%,17-Feb-23,"83,601",1.9,2.2,MS,0.53%,"10,066",Expired,0,,0
+61,21-Dec-22,OTC - Stock,,WOLF US,Sell,Put,USD,79.92,62.50,21.8%,76.74,81.4%,20-Jan-23,"13,000",1.0,0.8,MS,1.01%,"10,083",Expired,0,,0
+62,28-Dec-22,OTC - Stock,,PDD US,Sell,Put,USD,97.15,64.41,33.7%,80.51,80.0%,30-Jan-23,"12,400",1.0,0.8,GS,0.72%,"7,188",Expired,0,,0
+63,28-Dec-22,OTC - Stock,,MRNA US,Sell,Put,USD,180.87,140.60,22.3%,175.75,80.0%,30-Jan-23,"5,700",1.0,0.8,GS,0.93%,"9,317",Expired,0,,0
+64,29-Dec-22,OTC - Stock,#NAME?,002706 CH,Sell,Call,CNY,14.29,17.52,22.6%,14.60,120.0%,28-Feb-23,"490,000",7.2,1.2,MS,1.60%,"16,415",Expired,0,"CNY premium - 114,1450",0
+65,3-Jan-23,OTC - Stock,,UMG NA,Sell,Call,EUR,22.68,27.94,23.2%,23.28,120.0%,27-Feb-23,"122,353",2.8,3.4,MS,0.40%,"11,391",Expired,0,,0
+66,3-Jan-23,OTC - Stock,,NTES US,Sell,Call,USD,89.90,92.63,3.0%,77.19,120.0%,3-Feb-23,"13,000",1.0,1.2,GS,0.68%,"6,819",Expired,0,,0
+67,4-Jan-23,OTC - Stock,#NAME?,002706 CH,Sell,Call,CNY,13.71,17.69,29.0%,14.74,120.0%,6-Mar-23,"469,000",6.9,1.2,MS,1.60%,"16,021",Expired,0,"CNY premium - 110,590",0
+68,4-Jan-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1466.80,1122.11,23.5%,1320.13,85.0%,17-Feb-23,757,1.0,0.8,GS,1.65%,"16,489",Expired,0,,0
+69,4-Jan-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1466.80,1056.10,28.0%,1320.13,80.0%,17-Feb-23,757,1.0,0.8,GS,1.00%,"9,993",Expired,0,,0
+70,4-Jan-23,OTC - Stock,,AMZN US,Sell,Put,USD,103.39,67.88,34.3%,84.85,80.0%,3-Feb-23,"11,800",1.0,0.8,GS,0.69%,"6,908",Expired,0,,0
+71,4-Jan-23,OTC - Stock,,STAA US,Sell,Call,USD,70.24,72.72,3.5%,55.94,130.0%,17-Feb-23,"17,900",1.0,1.3,GS,0.97%,"9,712",Expired,0,,0
+72,4-Jan-23,OTC - Stock,,TSLA US,Sell,Put,USD,189.98,90.00,52.6%,109.60,82.1%,3-Feb-23,"9,000",1.0,0.8,MS,3.17%,"31,230",Expired,0,,0
+73,4-Jan-23,OTC - Stock,,NTES US,Sell,Call,USD,85.84,100.00,16.5%,82.57,121.1%,17-Feb-23,"12,200",1.0,1.2,MS,1.20%,"12,093",Expired,0,,0
+74,4-Jan-23,OTC - Stock,,NTES US,Sell,Call,USD,89.90,95.00,5.7%,80.65,117.8%,3-Feb-23,"24,900",2.0,2.4,MS,0.93%,"18,737",Expired,0,,0
+75,4-Jan-23,OTC - Stock,,PYPL US,Sell,Call,USD,85.52,95.00,11.1%,77.20,123.1%,3-Feb-23,"12,900",1.0,1.2,MS,0.90%,"8,941",Expired,0,,0
+76,5-Jan-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,24.50,16.68,31.9%,20.85,80.0%,6-Mar-23,"332,800",6.9,0.8,MS,0.90%,"9,089",Expired,0,"CNY Premium - 62,462",0
+77,5-Jan-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.82,4.47,23.2%,5.59,80.0%,17-Feb-23,"152,437",0.9,0.7,MS,0.75%,"6,389",Expired,0,,0
+78,6-Jan-23,OTC - Stock,,DIM FP,Sell,Put,EUR,301.80,231.13,23.4%,288.91,80.0%,17-Mar-23,"3,470",1.0,0.8,GS,1.10%,"11,028",Expired,0,,0
+79,9-Jan-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.82,4.55,21.8%,5.69,80.0%,17-Feb-23,"289,502",1.6,1.3,MS,0.90%,"14,815",Expired,0,,0
+80,9-Jan-23,OTC - Stock,,UMG NA,Sell,Call,EUR,21.38,26.91,25.9%,23.40,115.0%,17-Mar-23,"79,717",1.9,2.1,MS,0.91%,"17,036",Expired,0,,0
+81,9-Jan-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1466.80,1039.50,29.1%,1299.38,80.0%,17-Feb-23,770,1.0,0.8,GS,0.95%,"9,505",Expired,0,,0
+82,9-Jan-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,20.00,25.28,26.4%,21.07,120.0%,9-Mar-23,"645,500",13.6,2.4,MS,1.50%,"30,080",Expired,0,"CNY Premium - 204,042",0
+83,9-Jan-23,OTC - Stock,,AMZN US,Sell,Call,USD,97.61,107.19,9.8%,89.32,120.0%,10-Feb-23,"11,200",1.0,1.2,GS,0.83%,"8,303",Expired,0,,0
+84,9-Jan-23,OTC - Stock,,WOLF US,Sell,Put,USD,77.63,55.00,29.2%,71.12,77.3%,17-Feb-23,"14,200",1.0,0.8,MS,1.85%,"18,693",Expired,0,,0
+85,9-Jan-23,OTC - Stock,,STAA US,Sell,Call,USD,68.56,80.28,17.1%,66.90,120.0%,10-Feb-23,"30,000",2.0,2.4,MS,1.25%,"25,089",Expired,0,,0
+86,9-Jan-23,OTC - Stock,,PDD US,Sell,Put,USD,92.45,83.00,10.2%,96.31,86.2%,10-Feb-23,"10,300",1.0,0.9,MS,1.74%,"17,246",Expired,0,,0
+87,9-Jan-23,OTC - Stock,,ONON US,Sell,Call,USD,21.18,23.41,10.5%,19.50,120.0%,9-Feb-23,"102,500",2.0,2.4,GS,0.80%,"15,994",Expired,0,,0
+88,9-Jan-23,OTC - Stock,,SWAV US,Sell,Put,USD,180.45,162.35,10.0%,202.94,80.0%,10-Feb-23,"4,900",1.0,0.8,GS,0.78%,"7,756",Expired,0,,0
+89,9-Jan-23,OTC - Stock,,SWAV US,Sell,Put,USD,180.45,172.50,4.4%,202.94,85.0%,10-Feb-23,"4,900",1.0,0.8,GS,1.37%,"13,623",Expired,0,,0
+90,9-Jan-23,OTC - Stock,,STAA US,Sell,Call,USD,68.56,78.33,14.3%,65.28,120.0%,10-Feb-23,"30,600",2.0,2.4,GS,1.09%,"21,772",Expired,0,,0
+91,9-Jan-23,OTC - Stock,,PYPL US,Sell,Call,USD,74.66,93.77,25.6%,78.14,120.0%,17-Feb-23,"25,600",2.0,2.4,GS,1.34%,"26,805",Expired,0,,0
+92,9-Jan-23,OTC - Stock,,STAA US,Sell,Call,USD,70.24,78.05,11.1%,65.05,120.0%,17-Feb-23,"30,700",2.0,2.4,GS,1.36%,"27,158",Expired,0,,0
+93,9-Jan-23,OTC - Stock,,MRNA US,Sell,Put,USD,169.28,144.61,14.6%,180.77,80.0%,10-Feb-23,"5,500",1.0,0.8,GS,0.80%,"7,954",Expired,0,,0
+94,10-Jan-23,OTC - Stock,,STAA US,Sell,Call,USD,68.56,80.84,17.9%,67.37,120.0%,10-Feb-23,"29,600",2.0,2.4,MS,1.26%,"25,127",Expired,0,,0
+95,11-Jan-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1256.00,1007.10,19.8%,1119.00,90.0%,17-Mar-23,"9,354",10.5,0.9,MS,2.10%,"21,014",Expired,0,"SEK premium-219,810",0
+96,11-Jan-23,OTC - Stock,,ONON US,Sell,Call,USD,21.71,24.50,12.8%,20.41,120.0%,13-Feb-23,"98,000",2.0,2.4,GS,0.81%,"16,205",Expired,0,,0
+97,11-Jan-23,OTC - Stock,,PYPL US,Sell,Call,USD,79.45,94.28,18.7%,78.56,120.0%,13-Feb-23,"12,700",1.0,1.2,GS,1.01%,"10,077",Expired,0,,0
+98,11-Jan-23,Listed - Stock,,SWAV US,Sell,Put,USD,199.37,170.00,14.7%,200.00,85.0%,17-Feb-23,"5,000",1.0,0.9,MS,2.51%,"25,058",Expired,0,"Listed option, no delta hedge, trade commission USD (3+1.05)/contract *50 contracts",0
+99,12-Jan-23,Listed - Stock,,SWAV US,Sell,Put,USD,199.37,160.00,19.7%,201.00,79.6%,17-Feb-23,"5,000",1.0,0.8,MS,1.49%,"14,948",Expired,0,"Listed option, no delta hedge, trade commission USD (3+1.05)/contract *50 contracts",0
+100,13-Jan-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,20.10,25.74,28.1%,21.45,120.0%,13-Mar-23,"628,000",13.5,2.4,MS,1.30%,"25,936",Expired,0,"CNY Premium - 175,149",0
+101,13-Jan-23,OTC - Stock,#NAME?,002050 CH,Sell,Call,CNY,27.18,26.95,-0.8%,24.50,110.0%,13-Feb-23,"276,700",6.8,1.1,UBS,1.42%,"14,269",Exercised,"-9,433","CNY Premium - 96,264",0
+102,13-Jan-23,OTC - Stock,#NAME?,300285 CH,Sell,Put,CNY,30.63,24.37,20.4%,28.67,85.0%,13-Mar-23,"235,200",6.7,0.8,UBS,0.90%,"8,997",Expired,0,"CNY Premium - 60,697",0
+103,16-Jan-23,OTC - Stock,,RMS FP,Sell,Put,EUR,1730.00,1379.00,20.3%,1622.36,85.0%,17-Mar-23,"1,230",2.0,1.7,GS,1.07%,"21,352",Expired,0,,0
+104,16-Jan-23,OTC - Stock,,RMS FP,Sell,Put,EUR,1730.00,1381.25,20.2%,1625.00,85.0%,17-Mar-23,569,0.9,0.8,UBS,1.07%,"9,893",Expired,0,,0
+105,17-Jan-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.52,4.79,13.3%,5.98,80.0%,17-Mar-23,"165,830",1.0,0.8,GS,1.40%,"13,897",Expired,0,,0
+106,18-Jan-23,Listed - Stock,,SWAV US,Sell,Put,USD,199.37,150.00,24.8%,183.50,81.7%,17-Feb-23,"5,400",1.0,0.8,MS,1.24%,"12,276",Expired,0,"Listed option, no delta hedge, trade commission USD (3+1.05)/contract *50 contracts",0
+107,18-Jan-23,OTC - Stock,,PDD US,Sell,Put,USD,93.42,75.00,19.7%,89.81,83.5%,17-Feb-23,"11,100",1.0,0.8,MS,0.80%,"7,937",Expired,0,,0
+108,19-Jan-23,OTC - Stock,,WOLF US,Sell,Put,USD,72.02,60.77,15.6%,75.96,80.0%,21-Feb-23,"13,200",1.0,0.8,GS,1.96%,"19,651",Expired,0,,0
+109,19-Jan-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.82,4.40,24.4%,5.50,80.0%,17-Feb-23,"180,180",1.0,0.8,GS,0.70%,"6,937",Expired,0,,0
+110,19-Jan-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1466.80,1042.56,28.9%,1303.20,80.0%,17-Feb-23,762,1.0,0.8,GS,0.73%,"7,249",Expired,0,,0
+111,19-Jan-23,OTC - Stock,,RMS FP,Sell,Put,EUR,1747.00,1373.81,21.4%,1616.25,85.0%,17-Feb-23,"1,144",1.8,1.6,MS,0.45%,"8,320",Expired,0,,0
+112,25-Jan-23,Listed - Stock,,SWAV US,Sell,Put,USD,199.37,150.00,24.8%,190.00,78.9%,17-Feb-23,"1,100",0.2,0.2,MS,0.56%,"1,165",Expired,0,"Listed option, no delta hedge, trade commission USD (3+1.05)/contract *50 contracts",0
+113,25-Jan-23,OTC - Stock,,TSLA US,Sell,Put,USD,207.63,114.24,45.0%,142.80,80.0%,27-Feb-23,"14,000",2.0,1.6,MS,1.71%,"34,187",Expired,0,,0
+114,26-Jan-23,OTC- FX,,USDJPY Curncy,Buy,Put,USD,#NAME?,128.00,#NAME?,127.81,100.1%,26-Apr-23,,5.0,5.0,GS,-2.61%,"-130,500",Expired,#NAME?,"USD 5mn / JPY 640mn. FX trade, TKO 15:00 pm close, eyes on FWD price rather than spot price. ",#NAME?
+115,26-Jan-23,Listed - Stock,,WOLF US,Sell,Put,USD,77.63,65.00,16.3%,79.00,82.3%,17-Feb-23,"25,000",2.0,1.6,MS,0.83%,"16,488",Expired,0,"Listed option, no delta hedge, trade commission USD (3+1.05)/contract *50 contracts",0
+116,26-Jan-23,OTC - Stock,,PYPL US,Sell,Call,USD,73.77,95.48,29.4%,79.57,120.0%,27-Feb-23,"12,500",1.0,1.2,MS,0.76%,"7,559",Expired,0,,0
+117,26-Jan-23,OTC - Stock,,MRNA US,Sell,Put,USD,138.27,150.92,-9.1%,188.65,80.0%,27-Feb-23,"10,600",2.0,1.6,GS,0.64%,"12,798",Exercised,"-134,058",,#NAME?
+118,26-Jan-23,OTC - Stock,,ASML US,Sell,Put,USD,632.08,570.82,9.7%,671.55,85.0%,27-Feb-23,"1,500",1.0,0.9,GS,0.44%,"4,432",Expired,0,,0
+119,26-Jan-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.52,4.43,19.7%,5.21,85.0%,17-Mar-23,"389,000",2.0,1.7,GS,1.85%,"37,500",Expired,0,,0
+120,26-Jan-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1466.80,1076.10,26.6%,1345.12,80.0%,17-Feb-23,"1,486",2.0,1.6,UBS,0.63%,"12,500",Expired,0,,0
+121,26-Jan-23,OTC - Stock,,UMG NA,Sell,Call,EUR,22.72,28.04,23.4%,23.37,120.0%,27-Mar-23,"43,000",1.0,1.2,UBS,0.41%,"4,170",Expired,0,,0
+122,27-Jan-23,OTC - Stock,,WISE LN,Sell,Put,EUR,5.82,4.35,25.2%,5.12,85.0%,17-Feb-23,"194,550",1.0,0.8,GS,0.90%,"8,969",Expired,0,,0
+123,30-Jan-23,OTC - Stock,,MRNA US,Sell,Put,USD,138.81,146.00,-5.2%,182.50,80.0%,28-Feb-23,"5,500",1.0,0.8,MS,0.68%,"6,826",Exercised,"-39,545",,#NAME?
+124,1-Feb-23,OTC - Stock,,MRNA US,Sell,Put,USD,135.66,134.63,0.8%,168.29,80.0%,1-Mar-23,"5,900",1.0,0.8,GS,0.74%,"7,348",Expired,0,,0
+125,3-Feb-23,OTC - Stock,#NAME?,300059 CH,Sell,Put,CNY,22.89,19.04,16.8%,22.40,85.0%,3-Apr-23,"596,754",13.4,1.7,UBS,0.87%,"17,241",Expired,0,,0
+126,3-Feb-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,112.56,108.34,-3.8%,90.28,120.0%,3-Apr-23,"74,727",6.7,1.2,UBS,1.60%,"15,998",Exercised,"-46,766",,0
+127,3-Feb-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,25.20,21.36,15.2%,25.13,85.0%,3-Apr-23,"715,770",18.0,2.3,UBS,1.45%,"38,644",Expired,0,,0
+128,6-Feb-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,130.98,113.16,-13.6%,94.30,120.0%,6-Apr-23,"71,060",6.7,1.2,UBS,1.69%,"16,673",Exercised,"-186,430",,0
+129,6-Feb-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,25.29,21.11,16.5%,24.84,85.0%,6-Apr-23,"375,000",9.3,1.2,UBS,1.47%,"20,163",Expired,0,,0
+130,6-Feb-23,OTC - Stock,,ONON US,Sell,Call,USD,22.47,26.92,19.8%,22.43,120.0%,6-Mar-23,"44,600",1.0,1.2,GS,0.44%,"4,402",Expired,0,,0
+131,6-Feb-23,OTC - Stock,,STAA US,Sell,Call,USD,58.84,88.80,50.9%,74.00,120.0%,6-Mar-23,"13,500",1.0,1.2,MS,1.88%,"18,752",Expired,0,,0
+132,6-Feb-23,OTC - Stock,,NTES US,Sell,Call,USD,86.46,106.60,23.3%,88.84,120.0%,6-Mar-23,"11,300",1.0,1.2,MS,0.55%,"5,552",Expired,0,,0
+133,7-Feb-23,OTC - Stock,#NAME?,002050 CH,Sell,Call,CNY,23.98,30.12,25.6%,27.38,110.0%,7-Mar-23,"247,600",6.8,1.1,UBS,1.80%,"17,973",Expired,0,,0
+134,8-Feb-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1385.00,1043.84,24.6%,1304.79,80.0%,17-Mar-23,"1,480",1.9,1.5,GS,0.85%,"16,414",Expired,0,,0
+135,8-Feb-23,OTC - Stock,,WISE LN,Sell,Call,GBP,5.71,7.00,22.6%,5.95,117.6%,21-Apr-23,"168,900",1.0,1.2,GS,1.51%,"15,201",Expired,0,,0
+136,8-Feb-23,OTC - Stock,,WOLF US,Sell,Call,USD,70.15,99.65,42.0%,83.04,120.0%,8-Mar-23,"12,000",1.0,1.2,GS,0.70%,"6,975",Expired,0,,0
+137,8-Feb-23,OTC - Stock,,AMZN US,Sell,Put,USD,90.73,85.00,6.3%,100.20,84.8%,10-Mar-23,"10,000",1.0,0.9,MS,0.50%,"5,032",Expired,0,,0
+138,8-Feb-23,OTC - Stock,,PYPL US,Sell,Call,USD,73.43,97.00,32.1%,81.10,119.6%,10-Mar-23,"12,300",1.0,1.2,MS,1.00%,"9,978",Expired,0,,0
+139,10-Feb-23,OTC - Stock,,RMS FP,Sell,Put,EUR,2003.50,1404.20,29.9%,1652.00,85.0%,21-Apr-23,600,1.0,0.8,GS,1.05%,"10,408",Expired,0,,0
+140,10-Feb-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1410.00,1075.20,23.7%,1264.94,85.0%,21-Apr-23,"8,195",10.4,0.8,GS,1.06%,"10,458",Expired,0,"SEK premium-109,602",0
+141,16-Feb-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,19.60,19.90,-1.5%,22.11,90.0%,17-Apr-23,"310,500",6.9,0.9,MS,1.00%,"9,998",Exercised,"-13,559","CNY premium - 68,687",#NAME?
+142,17-Feb-23,OTC - Stock,,UMG NA,Sell,Put,EUR,20.70,19.12,7.7%,22.49,85.0%,21-Apr-23,"88,800",2.0,1.7,GS,0.71%,"14,199",Expired,0,,0
+143,17-Feb-23,OTC - Stock,,ADYEN NA,Sell,Call,EUR,1385.00,1720.00,24.2%,1450.94,118.5%,17-Mar-23,690,1.0,1.2,GS,0.42%,"4,175",Expired,0,,0
+144,17-Feb-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.52,4.84,12.3%,5.70,85.0%,17-Mar-23,"83,300",0.5,0.4,GS,0.60%,"2,849",Expired,0,,0
+145,17-Feb-23,OTC - Stock,,MRNA US,Sell,Put,USD,150.02,131.62,12.3%,164.53,80.0%,17-Mar-23,"6,100",1.0,0.8,GS,0.77%,"7,728",Expired,0,,0
+146,17-Feb-23,OTC - Stock,,MRNA US,Sell,Put,USD,150.02,131.44,12.4%,164.30,80.0%,17-Mar-23,"6,100",1.0,0.8,MS,0.73%,"7,283",Expired,0,,0
+147,20-Feb-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,19.98,24.17,21.0%,21.97,110.0%,20-Mar-23,"311,700",6.8,1.1,UBS,1.00%,"9,972",Expired,0,"CNY premium - 68,480",0
+148,20-Feb-23,OTC - Stock,,DIM FP,Sell,Put,EUR,301.80,296.48,1.8%,329.43,90.0%,17-Mar-23,"3,030",1.0,0.9,GS,1.06%,"10,579",Expired,0,,0
+149,20-Feb-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.52,4.84,12.2%,5.70,85.0%,17-Mar-23,"174,800",1.0,0.8,GS,0.50%,"4,982",Expired,0,,0
+150,20-Feb-23,OTC - Stock,,RMS FP,Sell,Put,EUR,2003.50,1458.12,27.2%,1715.44,85.0%,21-Apr-23,580,1.0,0.8,GS,0.65%,"6,467",Expired,0,,0
+151,21-Feb-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,18.60,19.59,-5.3%,21.77,90.0%,21-Apr-23,"314,500",6.8,0.9,UBS,0.90%,"8,960",Exercised,"-45,411",,#NAME?
+152,21-Feb-23,OTC - Stock,,DIM FP,Sell,Put,EUR,253.30,276.72,-9.2%,325.55,85.0%,21-Apr-23,"3,025",1.0,0.8,GS,1.46%,"14,389",Exercised,"-70,844",,#NAME?
+153,21-Feb-23,OTC - Stock,,EVO SS,Sell,Call,SEK,1410.00,1442.92,2.3%,1311.74,110.0%,21-Apr-23,"7,964",10.4,1.1,UBS,0.91%,"9,176",Expired,0,"SEK premium - 95,065",0
+154,21-Feb-23,OTC - Stock,,EVO SS,Sell,Call,SEK,1410.00,1451.40,2.9%,1319.45,110.0%,21-Apr-23,"7,810",10.3,1.1,GS,0.97%,"9,621",Expired,0,"SEK premium - 99,670",0
+155,21-Feb-23,OTC - Stock,,PDD US,Sell,Put,USD,78.93,69.51,11.9%,86.88,80.0%,21-Mar-23,"23,000",2.0,1.6,GS,1.11%,"22,181",Expired,0,,0
+156,21-Feb-23,OTC - Stock,,WISE LN,Sell,Call,GBP,5.71,6.63,16.1%,5.76,115.0%,21-Apr-23,"13,429",0.1,0.1,GS,0.95%,736,Expired,0,To confirm with GS on quantity,0
+157,21-Feb-23,OTC - Stock,,SWAV US,Sell,Put,USD,215.02,150.65,29.9%,188.32,80.0%,21-Mar-23,"5,300",1.0,0.8,GS,0.46%,"4,591",Expired,0,,0
+158,21-Feb-23,Listed - Stock,,STAA US,Sell,Call,USD,59.96,85.00,41.8%,67.50,125.9%,17-Mar-23,"3,200",0.2,0.3,MS,1.64%,"3,550",Expired,0,"Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *32 contracts",0
+159,21-Feb-23,OTC - Stock,,PDD US,Sell,Put,USD,91.94,70.00,23.9%,86.93,80.5%,17-Mar-23,"23,000",2.0,1.6,MS,0.99%,"19,718",Expired,0,,0
+160,22-Feb-23,OTC - Stock,#NAME?,300470 CH,Sell,Call,CNY,44.66,46.93,5.1%,42.66,110.0%,24-Apr-23,"323,000",13.8,2.2,UBS,1.16%,"23,172",Expired,0,"CNY Premium - 159,844",0
+161,22-Feb-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,18.37,19.62,-6.8%,21.80,90.0%,24-Apr-23,"316,500",6.9,0.9,UBS,1.01%,"10,102",Exercised,"-57,352","CNY Premium - 69,687",#NAME?
+162,22-Feb-23,OTC - Stock,#NAME?,300470 CH,Sell,Put,CNY,44.66,38.40,14.0%,42.66,90.0%,24-Apr-23,"323,000",13.8,1.8,UBS,0.87%,"17,379",Expired,0,"CNY Premium - 119,883",0
+163,22-Feb-23,OTC - Stock,,UMG NA,Sell,Call,EUR,20.91,26.51,26.8%,22.09,120.0%,24-Apr-23,"90,500",2.0,2.4,UBS,0.37%,"7,397",Expired,0,,0
+164,22-Feb-23,OTC - Stock,,UMG NA,Sell,Call,EUR,20.91,25.41,21.5%,22.09,115.0%,24-Apr-23,"45,300",1.0,1.2,UBS,0.72%,"7,205",Expired,0,,0
+165,22-Feb-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.71,4.47,21.7%,5.59,80.0%,21-Apr-23,"115,536",0.6,0.5,GS,0.70%,"4,517",Expired,0,,0
+166,22-Feb-23,OTC - Stock,,NTES US,Sell,Call,USD,85.17,102.06,19.8%,85.05,120.0%,22-Mar-23,"58,800",5.0,6.0,GS,0.51%,"25,506",Expired,0,,0
+166,22-Feb-23,OTC - Stock,,NTES US,Sell,Call,USD,85.17,102.06,19.8%,85.05,120.0%,22-Mar-23,"58,800",5.0,6.0,GS,0.51%,"25,506",Expired,0,,0
+168,22-Feb-23,OTC - Stock,,ASML US,Sell,Put,USD,640.37,531.25,17.0%,625.00,85.0%,22-Mar-23,"1,600",1.0,0.9,GS,0.56%,"5,600",Expired,0,,0
+169,23-Feb-23,OTC - Stock,,WISE LN,Sell,Call,GBP,5.71,6.68,16.9%,5.81,115.0%,21-Apr-23,"172,000",1.0,1.1,GS,1.00%,"9,993",Expired,0,,0
+170,24-Feb-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1410.00,1154.70,18.1%,1283.00,90.0%,21-Apr-23,"8,104",10.4,0.9,UBS,1.25%,"12,443",Expired,0,"SEK Premium - 130,280",0
+171,24-Feb-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1410.00,1062.50,24.6%,1250.00,85.0%,21-Apr-23,"8,289",10.4,0.8,GS,0.69%,"6,843",Expired,0,"SEK Premium - 71,648",0
+172,24-Feb-23,OTC - Stock,,NTES US,Sell,Put,USD,90.28,62.48,30.8%,78.11,80.0%,24-Apr-23,"12,800",1.0,0.8,MS,0.86%,"8,568",Expired,0,,0
+173,24-Feb-23,OTC - Stock,,PDD US,Sell,Put,USD,73.96,66.70,9.8%,83.37,80.0%,24-Mar-23,"12,000",1.0,0.8,MS,1.44%,"14,376",Expired,0,,0
+174,27-Feb-23,OTC - Stock,#NAME?,002050 CH,Sell,Call,CNY,25.56,30.07,17.7%,26.15,115.0%,27-Mar-23,"266,700",7.0,1.1,UBS,0.66%,"6,601",Expired,0,"CNY Premium - 46,099",0
+175,27-Feb-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1456.20,1218.54,16.3%,1353.96,90.0%,27-Apr-23,"1,392",1.9,1.7,MS,2.70%,"50,886",Expired,0,,0
+176,27-Feb-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1330.00,1140.76,14.2%,1267.51,90.0%,27-Mar-23,"8,222",10.4,0.9,UBS,0.49%,"4,910",Expired,0,"SEK Premium - 51,065",0
+177,27-Feb-23,OTC - Stock,,UMG NA,Sell,Call,EUR,19.63,26.07,32.8%,22.67,115.0%,27-Apr-23,"83,342",1.9,2.2,UBS,0.57%,"10,859",Expired,0,,0
+178,27-Feb-23,OTC - Stock,,ONON US,Sell,Call,USD,33.31,24.62,-26.1%,21.41,115.0%,21-Apr-23,"93,424",2.0,2.3,UBS,2.44%,"48,702",Exercised,"-811,855",,0
+179,27-Feb-23,OTC - Stock,,ONON US,Sell,Call,USD,21.61,22.50,4.1%,21.25,105.9%,17-Mar-23,"95,000",2.0,2.1,MS,2.79%,"56,307",Expired,0,,0
+180,27-Feb-23,OTC - Stock,,TSLA US,Sell,Call,USD,190.41,250.00,31.3%,207.30,120.6%,24-Mar-23,"9,600",2.0,2.4,MS,1.42%,"28,332",Expired,0,,0
+181,27-Feb-23,Listed - Stock,,SWAV US,Sell,Call,USD,286.46,230.00,-19.7%,190.50,120.7%,21-Apr-23,"5,100",1.0,1.2,MS,1.55%,"15,093",Exercised,"-287,946","Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *32 contracts (Voice Execution + Clearing)",0
+182,28-Feb-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,19.93,22.99,15.4%,20.90,110.0%,28-Mar-23,"663,600",13.9,2.2,MS,0.90%,"17,984",Expired,0,"CNY Premium - 124,823",0
+183,28-Feb-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,109.00,96.79,-11.2%,80.66,120.0%,28-Apr-23,"172,200",13.9,2.4,UBS,1.10%,"21,956",Exercised,"-302,240","CNY Premium - 152,776",0
+184,28-Feb-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1444.20,1127.28,21.9%,1326.22,85.0%,21-Apr-23,754,1.0,0.8,UBS,1.32%,"13,210",Expired,0,,0
+184,2-Mar-23,OTC - Stock,#NAME?,300470 CH,Sell,Put,CNY,45.48,37.98,16.5%,42.20,90.0%,4-May-23,"163,400",6.9,0.9,UBS,0.70%,"6,990",Expired,0,"CNY Premium - 48,268",0
+185,28-Feb-23,OTC - Stock,,DIM FP,Sell,Put,EUR,301.80,268.51,11.0%,315.90,85.0%,17-Mar-23,"3,145",1.0,0.8,GS,0.42%,"4,173",Expired,0,,0
+186,28-Feb-23,OTC - Stock,,DIM FP,Sell,Put,EUR,253.30,268.51,-6.0%,315.90,85.0%,21-Apr-23,"3,145",1.0,0.8,GS,1.20%,"11,922",Exercised,"-47,842",,#NAME?
+187,28-Feb-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1410.00,1141.98,19.0%,1268.87,90.0%,21-Apr-23,"8,230",10.4,0.9,GS,2.10%,"12,443",Expired,0,"SEK premium-130,158",0
+188,28-Feb-23,OTC - Stock,,ONON US,Sell,Call,USD,29.69,25.55,-13.9%,22.22,115.0%,28-Mar-23,"44,700",1.0,1.1,MS,1.23%,"12,208",Exercised,"-185,058",,0
+189,28-Feb-23,OTC - Stock,,ONON US,Sell,Call,USD,29.69,26.66,-10.2%,22.22,120.0%,28-Mar-23,"44,700",1.0,1.2,MS,0.65%,"6,437",Exercised,"-135,441",,0
+190,28-Feb-23,OTC - Stock,,NTES US,Sell,Put,USD,88.44,65.00,26.5%,77.76,83.6%,31-Mar-23,"12,700",1.0,0.8,MS,0.48%,"4,699",Expired,0,,0
+191,1-Mar-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,22.89,23.45,2.5%,21.32,110.0%,3-Apr-23,"324,900",6.9,1.1,UBS,1.00%,"10,012",Expired,0,"CNY Premium - 69,269",0
+192,1-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,112.56,94.43,-16.1%,82.12,115.0%,3-Apr-23,"84,900",7.0,1.2,UBS,0.71%,"7,154",Exercised,"-222,429","CNY Premium - 49,497",0
+193,2-Mar-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,25.20,20.38,19.1%,23.98,85.0%,3-Apr-23,"573,200",13.7,1.7,MS,0.70%,"13,986",Expired,0,"CNY Premium - 96,325",0
+195,2-Mar-23,OTC - Stock,,WOLF US,Sell,Put,USD,62.35,53.04,14.9%,66.30,80.0%,3-Apr-23,"15,200",1.0,0.8,MS,1.15%,"11,619",Expired,0,,0
+196,3-Mar-23,OTC - Stock,,UMG NA,Sell,Put,EUR,20.70,18.57,10.3%,21.84,85.0%,21-Apr-23,"43,278",0.9,0.8,MS,0.46%,"4,341",Expired,0,,0
+197,3-Mar-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.71,4.92,13.8%,5.79,85.0%,21-Apr-23,"144,137",0.8,0.7,MS,0.86%,"7,177",Expired,0,,0
+198,3-Mar-23,OTC - Stock,,WISE LN,Sell,Put,GBP,5.71,4.62,19.2%,5.77,80.0%,21-Apr-23,"175,100",1.0,0.8,GS,0.50%,"5,043",Expired,0,,0
+199,3-Mar-23,OTC - Stock,,UMG NA,Sell,Put,EUR,20.70,18.53,10.5%,21.79,85.0%,21-Apr-23,"86,410",1.9,1.6,UBS,0.44%,"8,287",Expired,0,,0
+200,3-Mar-23,OTC - Stock,,NTES US,Sell,Call,USD,89.76,99.49,10.8%,86.51,115.0%,3-Apr-23,"23,117",2.0,2.3,UBS,0.71%,"14,198",Expired,0,,0
+201,3-Mar-23,OTC - Stock,,PDD US,Sell,Call,USD,74.84,116.40,55.5%,97.00,120.0%,3-Apr-23,"20,619",2.0,2.4,UBS,1.69%,"33,799",Expired,0,,0
+202,7-Mar-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,24.41,21.73,11.0%,24.14,90.0%,11-Apr-23,"286,000",6.9,0.9,MS,1.50%,"14,929",Expired,0,"CNY Premium - 103,568",0
+203,7-Mar-23,OTC - Stock,#NAME?,300059 CH,Sell,Put,CNY,22.45,18.41,18.0%,20.45,90.0%,7-Apr-23,"678,900",13.9,1.8,UBS,0.77%,"15,320",Expired,0,"CNY Premium - 106,384",0
+204,7-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,129.47,101.46,-21.6%,88.23,115.0%,7-Apr-23,"11,000",1.0,0.2,UBS,0.70%,971,Exercised,"-44,363","CNY Premium - 6,745",0
+205,8-Mar-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,18.91,19.22,-1.6%,21.36,90.0%,8-May-23,"326,500",7.0,0.9,MS,0.70%,"6,987",Exercised,"-14,515","CNY Premium - 48,812",#NAME?
+206,8-Mar-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,24.23,21.38,11.8%,23.76,90.0%,12-Apr-23,"291,800",6.9,0.9,MS,1.50%,"14,911",Expired,0,"CNY Premium - 103,998",0
+207,8-Mar-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1444.20,1145.72,20.7%,1347.90,85.0%,21-Apr-23,710,1.0,0.8,GS,1.08%,"10,336",Expired,0,,0
+208,8-Mar-23,OTC - Stock,,DIM FP,Sell,Put,EUR,253.30,259.85,-2.6%,305.71,85.0%,21-Apr-23,"6,500",2.0,1.7,GS,1.02%,"20,312",Exercised,"-42,572",,#NAME?
+209,8-Mar-23,OTC - Stock,,TSLA US,Sell,Put,USD,184.51,144.79,21.5%,180.99,80.0%,10-Apr-23,"5,500",1.0,0.8,GS,1.12%,"11,149",Expired,0,,0
+210,8-Mar-23,OTC - Stock,,WOLF US,Sell,Put,USD,58.28,59.47,-2.0%,69.96,85.0%,10-Apr-23,"14,300",1.0,0.9,GS,1.37%,"13,706",Exercised,"-16,973",,"-833,404"
+211,9-Mar-23,OTC - Stock,,EVO SS,Sell,Put,SEK,1410.00,1131.21,19.8%,1256.90,90.0%,21-Apr-23,"8,575",10.8,0.9,GS,1.07%,"10,715",Expired,0,"SEK Premium - 114,860",0
+212,9-Mar-23,OTC - Stock,,PYPL US,Sell,Call,USD,74.52,86.05,15.5%,78.22,110.0%,10-Apr-23,"25,600",2.0,2.2,GS,1.15%,"23,029",Expired,0,,0
+213,9-Mar-23,OTC - Stock,,STAA US,Sell,Call,USD,66.33,80.51,21.4%,61.93,130.0%,9-May-23,"16,000",1.0,1.3,MS,1.35%,"13,376",Expired,0,,0
+214,9-Mar-23,OTC - Stock,,AMZN US,Sell,Call,USD,102.51,105.00,2.4%,95.55,109.9%,14-Apr-23,"10,500",1.0,1.1,MS,1.13%,"11,290",Expired,0,,0
+215,9-Mar-23,OTC - Stock,,PDD US,Sell,Put,USD,67.68,70.00,-3.4%,87.01,80.5%,14-Apr-23,"22,800",2.0,1.6,MS,1.39%,"27,540",Exercised,"-52,896",,#NAME?
+216,10-Mar-23,OTC - Stock,,STAA US,Sell,Put,USD,63.37,47.05,25.8%,58.81,80.0%,10-Apr-23,"17,000",1.0,0.8,GS,0.75%,"7,499",Expired,0,,0
+217,10-Mar-23,OTC - Stock,,WOLF US,Sell,Put,USD,59.38,50.00,15.8%,64.30,77.8%,21-Apr-23,"15,600",1.0,0.8,MS,1.11%,"11,107",Expired,0,,0
+218,10-Mar-23,OTC - Stock,,MRNA US,Sell,Call,USD,157.10,155.00,-1.3%,139.61,111.0%,14-Apr-23,"7,100",1.0,1.1,MS,2.24%,"22,226",Exercised,"-14,910",,0
+219,10-Mar-23,OTC - Stock,,NTES US,Sell,Call,USD,90.20,100.00,10.9%,83.00,120.5%,21-Apr-23,"48,000",4.0,4.8,MS,0.67%,"26,746",Expired,0,,0
+220,10-Mar-23,Listed - Stock,,TSLA US,Sell,Put,USD,185.00,140.00,24.3%,172.85,81.0%,14-Apr-23,"5,700",1.0,0.8,MS,1.51%,"14,874",Expired,0,"Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *57 contracts (Voice Execution + Clearing)",0
+221,10-Mar-23,Listed - Stock,,SWAV US,Sell,Put,USD,286.46,145.00,49.4%,182.45,79.5%,21-Apr-23,"5,500",1.0,0.8,MS,0.85%,"8,498",Expired,0,"Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *55 contracts (Voice Execution + Clearing)",0
+222,13-Mar-23,OTC - Stock,#NAME?,301029 CH,Sell,Put,CNY,43.65,42.13,3.5%,49.56,85.0%,15-May-23,"116,000",5.7,0.7,MS,0.66%,"5,522",Expired,0,"CNY Premium - 37,934",0
+223,13-Mar-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,17.76,19.40,-9.2%,21.55,90.0%,15-May-23,"321,000",6.9,0.9,UBS,0.66%,"6,631",Exercised,"-76,232","CNY Premium - 45,646",#NAME?
+224,13-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,108.90,100.28,-7.9%,87.20,115.0%,13-Apr-23,"78,800",6.9,1.1,UBS,0.75%,"7,486",Exercised,"-98,612",CNY Premium - 51535,0
+225,13-Mar-23,OTC - Stock,,RMS FP,Sell,Put,EUR,2003.50,1516.50,24.3%,1685.00,90.0%,21-Apr-23,560,0.9,0.8,UBS,1.00%,"9,436",Expired,0,,0
+226,13-Mar-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1454.80,1105.00,24.0%,1300.00,85.0%,19-May-23,760,1.0,0.8,GS,2.05%,"20,254",Expired,0,,0
+227,13-Mar-23,OTC - Stock,,PDD US,Sell,Call,USD,68.53,108.71,58.6%,90.70,119.9%,13-Apr-23,"22,100",2.0,2.4,GS,1.66%,"33,234",Expired,0,,0
+228,13-Mar-23,OTC - Stock,,PDD US,Sell,Call,USD,68.53,109.78,60.2%,91.49,120.0%,13-Apr-23,"21,900",2.0,2.4,GS,1.57%,"31,455",Expired,0,,0
+229,13-Mar-23,OTC - Stock,,STAA US,Sell,Call,USD,62.75,76.80,22.4%,59.07,130.0%,15-May-23,"33,900",2.0,2.6,GS,1.57%,"31,441",Expired,0,,0
+230,13-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.92,16.16,46.0%,20.20,80.0%,13-Apr-23,"50,000",1.0,0.8,MS,1.06%,"10,705",Expired,0,,0
+231,13-Mar-23,OTC - Stock,,TMDX US,Sell,Put,USD,88.73,60.00,32.4%,74.30,80.8%,21-Apr-23,"13,500",1.0,0.8,MS,1.01%,"10,129",Expired,0,,0
+232,13-Mar-23,OTC - Stock,,UMG NA,Sell,Put,EUR,19.03,18.13,4.7%,21.33,85.0%,19-May-23,"47,000",1.0,0.9,GS,0.91%,"9,118",Expired,0,,0
+233,13-Mar-23,OTC - Stock,,WISE LN,Sell,Put,GBP,599.60,4.04,99.3%,5.05,80.0%,19-May-23,"190,450",1.0,0.8,GS,1.30%,"12,532",Expired,0,,0
+234,15-Mar-23,OTC - Stock,,DIM FP,Sell,Put,EUR,253.30,249.05,1.7%,293.00,85.0%,21-Apr-23,"3,110",0.9,0.8,GS,1.01%,"9,203",Expired,0,,0
+235,15-Mar-23,OTC - Stock,,RMS FP,Sell,Put,EUR,2003.50,1419.50,29.1%,1670.00,85.0%,21-Apr-23,"1,190",2.0,1.7,GS,0.83%,"16,403",Expired,0,,0
+235,16-Mar-23,OTC - Stock,#NAME?,300285 CH,Sell,Put,CNY,28.29,25.08,11.3%,29.50,85.0%,16-May-23,"234,000",6.9,0.9,MS,0.80%,"8,003",Expired,0,"CNY Premium - 55,218",0
+236,16-Mar-23,OTC - Stock,,ONON US,Sell,Call,USD,30.45,26.05,-14.4%,21.71,120.0%,17-Apr-23,"91,200",2.0,2.4,MS,1.32%,"26,138",Exercised,"-401,280",,0
+237,17-Mar-23,Listed - Stock,,700 HK,Sell,Call,HKD,345.00,410.00,18.8%,344.00,119.2%,27-Apr-23,"5,000",1.7,0.3,MS,0.71%,"1,548",Expired,0,"Listed option, no delta hedge, trade commission HKD (15 + 15)/contract *50 contracts (Electronic Execution + Clearing), filled 11:50 HKT 17 Mar",0
+238,17-Mar-23,Listed - Stock,,700 HK,Sell,Call,HKD,345.00,410.00,18.8%,345.80,118.6%,27-Apr-23,"5,000",1.7,0.3,MS,0.72%,"1,593",Expired,0,"Listed option, no delta hedge, trade commission HKD (15 + 15)/contract *50 contracts (Electronic Execution + Clearing), filled 13:00 HKT 17 Mar",0
+239,17-Mar-23,Listed - Stock,,STAA US,Sell,Put,USD,70.25,50.00,28.8%,59.69,83.8%,21-Apr-23,"1,600",0.1,0.1,MS,1.72%,"1,647",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract *16 contracts (Electronic Execution + Clearing), filled 00:01 HKT 18 Mar",0
+240,17-Mar-23,Listed - Stock,,STAA US,Sell,Put,USD,70.25,50.00,28.8%,59.97,83.4%,21-Apr-23,"1,600",0.1,0.1,MS,1.80%,"1,727",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract *16 contracts (Electronic Execution + Clearing), filled 00:01 HKT 18 Mar",0
+241,17-Mar-23,OTC - Stock,,MRNA US,Sell,Put,USD,143.97,119.82,16.8%,149.78,80.0%,17-Apr-23,"6,600",1.0,0.8,MS,0.65%,"6,426",Expired,0,,0
+242,17-Mar-23,OTC - Stock,,WISE LN,Sell,Put,GBP,599.60,4.67,99.2%,5.50,85.0%,19-May-23,"181,620",1.0,0.8,GS,1.65%,"16,473",Expired,0,,0
+243,17-Mar-23,OTC - Stock,,DIM FP,Sell,Put,EUR,276.50,257.97,6.7%,303.50,85.0%,16-Jun-23,"3,275",1.0,0.8,GS,2.13%,"21,175",Expired,0,,0
+244,17-Mar-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1454.80,1181.67,18.8%,1390.20,85.0%,19-May-23,"1,400",1.9,1.7,GS,2.10%,"40,872",Expired,0,,0
+245,20-Mar-23,OTC - Stock,#NAME?,300012 CH,Sell,Put,CNY,19.27,18.77,2.6%,20.85,90.0%,22-May-23,"330,422",6.9,0.9,UBS,0.74%,"7,359",Expired,0,"CNY Premium - 50,705",0
+246,20-Mar-23,OTC - Stock,#NAME?,301029 CH,Sell,Put,CNY,44.28,39.45,10.9%,43.83,90.0%,22-May-23,"131,000",5.7,0.7,MS,2.22%,"18,497",Expired,0,"CNY Premium - 127,510",0
+247,20-Mar-23,OTC - Stock,#NAME?,301029 CH,Sell,Put,CNY,44.28,37.26,15.9%,43.83,85.0%,22-May-23,"133,200",5.8,0.7,MS,1.14%,"9,657",Expired,0,"CNY Premium - 66,571",0
+248,20-Mar-23,OTC - Stock,,PDD US,Sell,Put,USD,69.69,62.84,9.8%,78.55,80.0%,20-Apr-23,"50,924",4.0,3.2,UBS,0.90%,"35,800",Expired,0,,0
+249,20-Mar-23,OTC - Stock,,STAA US,Sell,Put,USD,63.95,57.81,9.6%,60.85,95.0%,31-Mar-23,"16,400",1.0,0.9,MS,1.82%,"18,163",Expired,0,,0
+250,20-Mar-23,OTC - Stock,,NTES US,Sell,Call,USD,91.32,103.43,13.3%,86.19,120.0%,20-Apr-23,"23,200",2.0,2.4,MS,0.40%,"7,999",Expired,0,,0
+251,20-Mar-23,OTC - Stock,,WOLF US,Sell,Put,USD,59.38,50.00,15.8%,61.97,80.7%,21-Apr-23,"16,000",1.0,0.8,MS,1.39%,"13,750",Expired,0,,0
+252,20-Mar-23,Listed - Stock,,STAA US,Sell,Put,USD,70.25,55.00,21.7%,60.94,90.3%,21-Apr-23,"32,600",2.0,1.8,MS,2.58%,"51,299",Expired,0,"Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *326 contracts (Voice Execution + Clearing), filled 00:23 HKT 21 Mar",0
+253,21-Mar-23,OTC - Stock,#NAME?,688700 CH,Sell,Put,CNY,87.01,83.71,3.8%,98.48,85.0%,21-Apr-23,"1,400",0.1,0.0,UBS,1.14%,230,Expired,0,"CNY Premium - 1,579",0
+254,21-Mar-23,OTC - Stock,,RMS FP,Sell,Put,EUR,2002.50,1571.66,21.5%,1746.29,90.0%,19-May-23,"1,064",1.9,1.7,MS,1.50%,"27,871",Expired,0,,0
+255,21-Mar-23,OTC - Stock,,MRNA US,Sell,Put,USD,140.85,125.00,11.3%,153.91,81.2%,21-Apr-23,"6,500",1.0,0.8,MS,0.92%,"9,164",Expired,0,,0
+256,22-Mar-23,OTC - Stock,#NAME?,300285 CH,Sell,Put,CNY,#NAME?,24.82,#NAME?,29.20,85.0%,22-May-23,"235,600",6.9,0.8,MS,0.80%,"7,987",Expired,#NAME?,"CNY Premium - 55,036",#NAME?
+257,22-Mar-23,OTC - Stock,#NAME?,300059 CH,Sell,Put,CNY,#NAME?,13.41,#NAME?,15.78,85.0%,22-May-23,"873,192",13.8,1.7,UBS,0.90%,"17,999",Expired,#NAME?,"CNY Premium - 123,971",#NAME?
+258,23-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Call,CNY,#NAME?,120.20,#NAME?,100.17,120.0%,23-May-23,"68,700",6.9,1.2,UBS,1.53%,"15,423",Expired,#NAME?,"CNY Premium - 105,494",#NAME?
+259,23-Mar-23,OTC - Stock,,NTES US,Sell,Call,USD,#NAME?,108.61,#NAME?,90.51,120.0%,23-May-23,"11,048",1.0,1.2,UBS,1.18%,"11,840",Expired,#NAME?,,#NAME?
+260,24-Mar-23,Listed - Stock,,PDD US,Sell,Put,USD,69.23,60.00,13.3%,73.37,81.8%,21-Apr-23,"2,000",0.1,0.1,MS,1.20%,"1,759",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract *20 contracts (Electronic Execution + Clearing), filled 23:42 HKT 24 Mar",0
+261,24-Mar-23,Listed - Stock,,PDD US,Sell,Put,USD,69.23,60.00,13.3%,73.12,82.1%,21-Apr-23,"4,200",0.3,0.3,MS,1.21%,"3,702",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract *42 contracts (Electronic Execution + Clearing), filled 01:11 HKT 25 Mar",0
+262,24-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.69,28.86,2.8%,30.38,95.0%,28-Mar-23,"66,000",2.0,1.9,MS,0.43%,"8,620",Expired,0,,0
+263,24-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.38,27.34,6.9%,30.38,90.0%,6-Apr-23,"66,000",2.0,1.8,MS,0.81%,"16,243",Expired,0,,0
+264,24-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,30.71,25.68,16.4%,30.21,85.0%,14-Apr-23,"19,800",0.6,0.5,MS,0.59%,"3,530",Expired,0,,0
+265,27-Mar-23,OTC - Stock,,UMG NA,Sell,Put,EUR,19.63,20.56,-4.8%,22.84,90.0%,27-Apr-23,"81,569",1.9,1.7,MS,0.40%,"7,472",Exercised,"-76,267",,-1600791.625
+266,27-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.69,29.34,1.2%,30.88,95.0%,28-Mar-23,"129,533",4.0,3.8,UBS,0.18%,"7,034",Expired,0,,0
+267,29-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.35,27.53,6.2%,30.59,90.0%,5-Apr-23,"66,400",2.0,1.8,MS,0.25%,"5,080",Expired,0,,0
+268,30-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Put,CNY,107.83,91.71,15.0%,96.53,95.0%,14-Apr-23,"71,400",6.9,0.9,UBS,1.90%,"19,006",Expired,0,,0
+269,30-Mar-23,OTC - Stock,#NAME?,688036 CH,Sell,Put,CNY,107.83,90.92,15.7%,95.70,95.0%,14-Apr-23,"71,500",6.8,0.9,MS,2.00%,"19,834",Expired,0,,0
+270,30-Mar-23,OTC - Stock,,ONON US,Sell,Put,USD,29.38,29.45,-0.2%,31.00,95.0%,6-Apr-23,"65,000",2.0,1.9,MS,0.90%,"18,135",Exercised,"-4,550",,#NAME?
+271,3-Apr-23,OTC - Stock,#NAME?,300059 CH,Sell,Call,CNY,15.97,21.90,37.1%,18.25,120.0%,4-May-23,"754,560",13.8,2.4,UBS,0.26%,"5,112",Expired,0,"CNY Premium - 35,253",0
+272,4-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,29.38,31.16,-6.1%,32.80,95.0%,6-Apr-23,"60,975",2.0,1.9,UBS,0.14%,"2,817",Exercised,"-108,536",,#NAME?
+273,6-Apr-23,OTC - Stock,,UMG NA,Sell,Put,EUR,19.03,18.19,4.4%,21.40,85.0%,19-May-23,"86,484",1.9,1.6,MS,0.65%,"12,030",Expired,0,,0
+274,10-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,67.77,58.71,13.4%,61.80,95.0%,17-Apr-23,"32,300",2.0,1.9,MS,0.90%,"17,965",Expired,0,,0
+275,10-Apr-23,OTC - Stock,,TSLA US,Sell,Put,USD,167.98,145.00,13.7%,180.60,80.3%,12-May-23,"5,500",1.0,0.8,MS,1.43%,"14,212",Expired,0,,0
+276,10-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,29.87,28.32,5.2%,29.81,95.0%,11-Apr-23,"67,083",2.0,1.9,UBS,0.13%,"2,677",Expired,0,,0
+277,10-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,29.32,28.32,3.4%,29.81,95.0%,12-Apr-23,"67,083",2.0,1.9,UBS,0.36%,"7,238",Expired,0,,0
+278,11-Apr-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,23.42,21.82,6.8%,24.24,90.0%,11-May-23,"11,300",0.3,0.0,MS,1.20%,477,Expired,0,"CNY Premium - 3,283",0
+279,11-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,29.32,28.78,1.8%,30.29,95.0%,12-Apr-23,"33,013",1.0,1.0,UBS,0.14%,"1,390",Expired,0,,0
+280,12-Apr-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,23.20,21.60,6.9%,24.00,90.0%,12-May-23,"282,200",6.8,0.9,MS,1.20%,"11,796",Expired,0,"CNY Premium - 81,242",0
+281,12-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,29.92,28.49,4.8%,29.99,95.0%,13-Apr-23,"66,700",2.0,1.9,UBS,0.13%,"2,601",Expired,0,,0
+282,13-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,30.71,28.02,8.8%,29.49,95.0%,14-Apr-23,"67,500",2.0,1.9,MS,0.10%,"2,012",Expired,0,,0
+283,13-Apr-23,OTC - Stock,,PDD US,Sell,Put,USD,66.12,58.32,11.8%,68.61,85.0%,27-Apr-23,"29,151",2.0,1.7,UBS,0.25%,"5,020",Expired,0,,0
+284,14-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,30.45,29.17,4.2%,30.70,95.0%,17-Apr-23,"130,000",4.0,3.8,MS,0.12%,"4,784",Expired,0,,0
+285,17-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,70.94,64.79,8.7%,67.77,95.6%,24-Apr-23,"15,000",1.0,1.0,MS,1.20%,"12,198",Expired,0,,0
+286,17-Apr-23,OTC - Stock,,STAA US,Buy,Call,USD,70.94,71.16,0.3%,67.77,105.0%,24-Apr-23,"15,000",1.0,1.1,MS,-1.20%,"-12,198",Expired,0,,0
+287,17-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,70.94,64.66,8.8%,67.64,95.6%,24-Apr-23,"14,800",1.0,1.0,GS,1.25%,"12,534",Expired,0,,0
+288,17-Apr-23,OTC - Stock,,STAA US,Buy,Call,USD,70.94,71.02,0.1%,67.64,105.0%,24-Apr-23,"14,800",1.0,1.1,GS,-1.25%,"-12,534",Expired,0,,0
+289,17-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,69.10,63.26,8.5%,66.59,95.0%,19-Apr-23,"60,067",4.0,3.8,UBS,0.27%,"10,962",Expired,0,,0
+290,17-Apr-23,OTC - Stock,,MRNA US,Sell,Put,USD,133.40,123.25,7.6%,145.00,85.0%,1-May-23,"6,896",1.0,0.8,UBS,0.23%,"2,340",Expired,0,,0
+291,17-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,31.91,28.82,9.7%,30.33,95.0%,18-Apr-23,"65,935",2.0,1.9,UBS,0.13%,"2,697",Expired,0,,0
+292,18-Apr-23,OTC - Stock,,WISE LN,Sell,Put,GBP,599.60,4.40,99.3%,5.18,85.0%,19-May-23,"191,500",1.0,0.8,GS,0.85%,"8,426",Expired,0,,0
+293,18-Apr-23,Listed - Stock,,SWAV US,Sell,Put,USD,286.46,260.00,9.2%,268.15,97.0%,21-Apr-23,"15,000",4.0,3.9,MS,1.43%,"57,462",Expired,0,"Listed option, no delta hedge, trade commission USD (3 + 1.05)/contract *150 contracts (Voice Execution + Clearing)",0
+294,18-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,70.47,64.11,9.0%,67.48,95.0%,20-Apr-23,"29,638",2.0,1.9,UBS,0.30%,"5,999",Expired,0,,0
+295,19-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,67.60,65.70,2.8%,68.30,96.2%,26-Apr-23,"14,500",1.0,1.0,MS,0.95%,"9,408",Expired,0,,0
+296,19-Apr-23,OTC - Stock,,STAA US,Buy,Call,USD,67.60,71.71,6.1%,68.30,105.0%,26-Apr-23,"14,500",1.0,1.0,MS,-0.95%,"-9,408",Expired,0,,0
+297,19-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,33.31,30.11,9.6%,31.70,95.0%,21-Apr-23,"62,500",2.0,1.9,MS,0.31%,"6,144",Expired,0,,0
+298,20-Apr-23,OTC - Stock,,TSLA US,Sell,Put,USD,#NAME?,133.60,#NAME?,167.00,80.0%,22-May-23,"12,000",2.0,1.6,GS,0.70%,"14,028",Expired,#NAME?,,#NAME?
+299,20-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,68.52,65.83,3.9%,68.50,96.1%,27-Apr-23,600,0.0,0.0,MS,1.24%,511,Expired,0,,0
+300,20-Apr-23,OTC - Stock,,STAA US,Buy,Call,USD,68.52,71.93,5.0%,68.50,105.0%,27-Apr-23,600,0.0,0.0,MS,-1.24%,-511,Expired,0,,0
+301,20-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,68.52,62.26,9.1%,69.18,90.0%,27-Apr-23,"14,455",1.0,0.9,UBS,0.31%,"3,060",Expired,0,,0
+302,21-Apr-23,OTC - Stock,,TMDX US,Sell,Put,USD,79.10,85.04,-7.5%,88.77,95.8%,28-Apr-23,"11,400",1.0,1.0,MS,1.84%,"18,612",Exercised,"-67,716",,-901740
+303,21-Apr-23,OTC - Stock,,TMDX US,Buy,Call,USD,79.10,93.21,17.8%,88.77,105.0%,28-Apr-23,"11,400",1.0,1.1,MS,-1.84%,"-18,612",Expired,0,,0
+304,21-Apr-23,OTC - Stock,,PYPL US,Sell,Call,USD,76.00,77.30,1.7%,73.62,105.0%,28-Apr-23,"54,331",4.0,4.2,UBS,0.20%,"7,998",Expired,0,,0
+305,21-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,33.61,31.16,7.3%,32.80,95.0%,24-Apr-23,600,0.0,0.0,MS,0.15%,30,Expired,0,,0
+306,24-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.16,31.44,2.2%,33.10,95.0%,25-Apr-23,"30,216",1.0,0.9,UBS,0.20%,"2,040",Expired,0,,0
+307,24-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.88,31.44,4.4%,33.10,95.0%,26-Apr-23,"30,216",1.0,0.9,UBS,0.39%,"3,949",Expired,0,,0
+308,24-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,72.82,67.78,6.9%,70.60,96.0%,1-May-23,"28,600",2.0,1.9,MS,1.29%,"26,069",Expired,0,,0
+309,24-Apr-23,OTC - Stock,,STAA US,Buy,Call,USD,72.82,74.13,1.8%,70.60,105.0%,1-May-23,"28,600",2.0,2.1,MS,-1.29%,"-26,069",Expired,0,,0
+310,24-Apr-23,OTC - Stock,,PDD US,Sell,Put,USD,60.53,59.00,2.5%,66.00,89.4%,19-May-23,"15,200",1.0,0.9,MS,1.22%,"12,236",Expired,0,,0
+311,25-Apr-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,25.56,19.98,21.8%,22.20,90.0%,25-May-23,"309,500",6.9,0.9,MS,1.00%,"9,935",Expired,0,"CNY Premium - 68,640",0
+312,25-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,68.52,65.89,3.8%,69.36,95.0%,27-Apr-23,"14,418",1.0,1.0,UBS,0.35%,"3,491",Expired,0,,0
+313,25-Apr-23,OTC - Stock,,STAA US,Sell,Put,USD,67.60,65.89,2.5%,69.36,95.0%,26-Apr-23,"14,418",1.0,1.0,UBS,0.18%,"1,789",Expired,0,,0
+314,25-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.88,31.70,3.6%,33.37,95.0%,26-Apr-23,"29,964",1.0,0.9,UBS,0.26%,"2,571",Expired,0,,0
+315,25-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.44,31.70,2.3%,33.37,95.0%,27-Apr-23,"29,964",1.0,0.9,UBS,0.48%,"4,800",Expired,0,,0
+316,26-Apr-23,OTC - Stock,,RMS FP,Sell,Put,EUR,1959.20,1746.69,10.8%,1940.76,90.0%,26-May-23,925,1.8,1.6,MS,0.55%,"9,874",Expired,0,,0
+317,26-Apr-23,OTC - Stock,,NDX,Buy,Put,USD,13245.99,12600.00,4.9%,12823.74,98.3%,28-Apr-23,"2,500",32.1,31.5,MS,-0.35%,"-111,008",Expired,0,,0
+318,26-Apr-23,OTC - Stock,,NDX,Buy,Put,USD,13245.99,12700.00,4.1%,12825.46,99.0%,28-Apr-23,"2,500",32.1,31.8,MS,-0.52%,"-167,795",Expired,0,,0
+319,26-Apr-23,Listed - Stock,,NDX,Buy,Put,USD,13245.99,12700.00,4.1%,12825.46,99.0%,28-Apr-23,100,1.3,1.3,MS,-0.39%,"-5,010",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+320,26-Apr-23,Listed - Stock,,QQQ US,Buy,Put,USD,322.56,310.00,3.9%,311.87,99.4%,28-Apr-23,100,0.0,0.0,MS,-0.42%,-132,Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+321,27-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.45,29.85,8.0%,31.74,94.1%,28-Apr-23,"63,657",2.0,1.9,UBS,0.18%,"3,603",Expired,0,,0
+322,28-Apr-23,OTC - Stock,,ONON US,Sell,Put,USD,32.42,30.47,6.0%,32.08,95.0%,1-May-23,"62,348",2.0,1.9,UBS,0.18%,"3,604",Expired,0,,0
+323,2-May-23,OTC - Stock,,STAA US,Sell,Put,USD,70.09,67.15,4.2%,70.69,95.0%,3-May-23,"28,294",2.0,1.9,UBS,0.28%,"5,599",Expired,0,,0
+324,11-May-23,OTC - Stock,,ONON US,Buy,Call,USD,27.51,34.67,26.0%,33.02,105.0%,18-May-23,"60,569",2.0,2.1,UBS,-3.55%,"-70,999",Expired,0,,0
+325,11-May-23,OTC - Stock,,ONON US,Sell,Put,USD,27.51,31.96,-16.2%,33.02,96.8%,18-May-23,"60,569",2.0,1.9,UBS,3.55%,"70,999",Exercised,"-269,532",,#NAME?
+326,11-May-23,OTC - Stock,,ONON US,Sell,Put,USD,33.44,31.37,6.2%,33.02,95.0%,15-May-23,"60,569",2.0,1.9,UBS,0.69%,"13,701",Expired,0,,0
+327,11-May-23,OTC - Stock,,SMCI US,Buy,Call,USD,164.56,143.81,-12.6%,136.96,105.0%,18-May-23,"14,602",2.0,2.1,UBS,-1.50%,"-29,998",Exercised,"302,992",,#NAME?
+328,11-May-23,OTC - Stock,,SMCI US,Sell,Put,USD,164.56,132.17,19.7%,136.96,96.5%,18-May-23,"14,602",2.0,1.9,UBS,1.50%,"29,998",Expired,0,,0
+329,11-May-23,Listed - Stock,,ONON US,Sell,Call,USD,26.69,36.50,36.8%,33.12,110.2%,19-May-23,"90,000",3.0,3.3,MS,2.14%,"63,720",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+330,11-May-23,OTC - Stock,,NVDA US,Buy,Call,USD,316.75,300.10,-5.3%,285.81,105.0%,18-May-23,"7,000",2.0,2.1,GS,-0.45%,"-9,003",Exercised,"116,554",,#NAME?
+331,11-May-23,OTC - Stock,,NVDA US,Sell,Put,USD,316.75,274.37,13.4%,285.81,96.0%,18-May-23,"7,000",2.0,1.9,GS,0.45%,"9,003",Expired,0,,0
+332,12-May-23,OTC - Stock,,ONON US,Sell,Put,USD,30.19,31.83,-5.4%,32.98,96.5%,16-May-23,"30,364",1.0,1.0,UBS,2.40%,"24,000",Exercised,"-49,797",,
+333,12-May-23,OTC - Stock,,ONON US,Buy,Call,USD,30.19,34.58,14.5%,32.98,104.9%,16-May-23,"30,364",1.0,1.0,UBS,2.40%,"24,000",Expired,0,,
+334,13-May-23,Listed - Stock,,ONON US,Sell,Call,USD,26.69,36.50,36.8%,33.00,110.6%,19-May-23,"1,000",0.0,0.0,MS,2.36%,780,Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+335,15-May-23,OTC - Stock,,ADYEN NA,Sell,Put,EUR,1619.20,1222.81,24.5%,1438.60,85.0%,15-Jun-23,695,1.0,0.8,UBS,0.43%,"4,250",Expired,0,,0
+336,15-May-23,Listed - Stock,,RMS FP,Sell,Put,EUR,1986.00,1700.00,14.4%,1990.00,85.4%,16-Jun-23,500,1.0,0.9,MS,0.39%,"3,835",Expired,0,"Listed option, no delta hedge, trade commission USD (0.4 + 0.60+0.055)/contract contracts (Voice Execution + Clearing)",0
+337,15-May-23,Listed - Stock,,ADYEN NA,Sell,Put,EUR,1579.80,1200.00,24.0%,1435.00,83.6%,16-Jun-23,640,0.9,0.8,MS,0.43%,"3,905",Expired,0,"Listed option, no delta hedge, trade commission USD (0.4 +0.6+0.36)/contract contracts (Voice Execution + Clearing)",0
+338,15-May-23,Listed - Stock,,STAA US,Sell,Call,USD,52.61,70.00,33.1%,62.10,112.7%,16-Jun-23,"31,600",2.0,2.2,MS,1.41%,"27,712",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+339,15-May-23,Listed - Stock,,TSLA US,Sell,Put,USD,260.54,133.33,48.8%,167.20,79.7%,16-Jun-23,"2,100",0.4,0.3,MS,0.84%,"2,939",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+340,17-May-23,Listed - Stock,,STAA US,Sell,Call,USD,52.61,70.00,33.1%,61.70,113.5%,16-Jun-23,"32,500",2.0,2.3,MS,1.03%,"20,555",Expired,0,"Listed option, no delta hedge, trade commission USD (1 + 1.05)/contract contracts (Voice Execution + Clearing)",0
+341,18-May-23,OTC - Stock,,ONON US,Sell,Put,USD,26.65,26.53,0.4%,27.46,96.6%,25-May-23,"72,800",2.0,1.9,GS,1.16%,"23,127",Expired,0,,0
+342,18-May-23,OTC - Stock,,ONON US,Buy,Call,USD,26.65,28.83,8.2%,27.46,105.0%,25-May-23,"72,800",2.0,2.1,GS,-1.16%,"-23,127",Expired,0,,0
+343,18-May-23,OTC - Stock,,TMDX US,Sell,Put,USD,71.33,71.51,-0.3%,74.80,95.6%,25-May-23,"13,300",1.0,1.0,MS,1.80%,"17,861",Exercised,"-2,394",,"-948,689"
+344,18-May-23,OTC - Stock,,TMDX US,Buy,Call,USD,71.33,78.54,10.1%,74.80,105.0%,25-May-23,"13,300",1.0,1.0,MS,-1.80%,"-17,861",Expired,0,,0
+345,23-May-23,OTC - Stock,,RMS FP,Sell,Put,EUR,#NAME?,1600.00,#NAME?,1930.00,82.9%,21-Jul-23,515,1.0,0.9,GS,0.49%,"4,918",Active,#NAME?,,#NAME?
+346,25-May-23,OTC - Stock,#NAME?,300285 CH,Sell,Put,CNY,#NAME?,24.39,#NAME?,27.10,90.0%,26-Jun-23,"523,500",14.2,1.8,MS,0.75%,"15,046",Active,#NAME?,"CNY Premium - 106,375.2",#NAME?
+347,25-May-23,OTC - Stock,#NAME?,688506 CH,Sell,Put,CNY,#NAME?,83.51,#NAME?,92.79,90.0%,26-Jun-23,"153,700",14.3,1.9,UBS,2.63%,"53,054",Active,#NAME?,"CNY Premium - 375,028",#NAME?
+348,25-May-23,OTC - Stock,#NAME?,688392 CH,Sell,Put,CNY,#NAME?,88.24,#NAME?,98.05,90.0%,26-Jun-23,"145,040",14.2,1.9,UBS,1.78%,"35,810",Active,#NAME?,"CNY Premium - 253,136",#NAME?
+349,25-May-23,OTC - Stock,,ONON US,Sell,Put,USD,27.45,24.93,9.2%,26.25,95.0%,26-May-23,"38,101",1.0,0.9,UBS,0.21%,"2,092",Expired,0,,0
+350,25-May-23,OTC - Stock,,ONON US,Sell,Put,USD,27.17,25.20,7.3%,26.25,96.0%,1-Jun-23,"38,101",1.0,1.0,UBS,1.30%,"13,000",Expired,0,,0
+351,25-May-23,OTC - Stock,,ONON US,Buy,Call,USD,27.17,27.56,1.4%,26.25,105.0%,1-Jun-23,"38,101",1.0,1.1,UBS,-1.30%,"-13,000",Expired,0,,0
+352,25-May-23,OTC - Stock,,ONON US,Sell,Put,USD,27.32,25.04,8.3%,26.36,95.0%,30-May-23,"37,900",1.0,0.9,GS,0.56%,"5,595",Expired,0,,0
+353,25-May-23,OTC - Stock,,SWAV US,Buy,Call,USD,281.66,293.06,4.0%,279.10,105.0%,1-Jun-23,"3,582",1.0,1.0,UBS,-0.50%,"-4,999",Expired,0,,0
+354,25-May-23,OTC - Stock,,SWAV US,Sell,Put,USD,281.66,267.94,4.9%,279.10,96.0%,1-Jun-23,"3,582",1.0,1.0,UBS,0.50%,"4,999",Expired,0,,0
+355,29-May-23,OTC - Stock,#NAME?,688392 CH,Sell,Put,CNY,#NAME?,79.34,#NAME?,93.34,85.0%,29-Jun-23,"118,160",11.0,1.4,MS,0.95%,"14,821",Active,#NAME?,"CNY Premium - 104,776",#NAME?
+356,30-May-23,OTC - Stock,,ONON US,Sell,Put,USD,27.17,25.93,4.6%,27.30,95.0%,1-Jun-23,"36,632",1.0,0.9,UBS,0.40%,"4,000",Expired,0,,0
+357,1-Jun-23,OTC - Index,,NKA,Sell,Call,JPY,#NAME?,32000.00,#NAME?,31060.33,103.0%,14-Jul-23,"112,100",3481.9,25.8,UBS,1.12%,"281,828",Active,#NAME?,"JPY Premium - 39,131,868",#NAME?
+358,1-Jun-23,OTC - Index,,NKA,Buy,Put,JPY,#NAME?,29875.00,#NAME?,31060.33,96.2%,14-Jul-23,"112,100",3481.9,24.1,UBS,-1.09%,"-272,326",Active,#NAME?,"JPY Premium - 37,812,451",#NAME?
+359,1-Jun-23,OTC - Index,,NKA,Sell,Call,JPY,#NAME?,32250.00,#NAME?,31080.27,103.8%,14-Jul-23,"112,100",3484.1,26.0,UBS,0.92%,"231,135",Active,#NAME?,"JPY Premium - 32,093,109",#NAME?
+360,1-Jun-23,OTC - Index,,NKA,Buy,Put,JPY,#NAME?,29625.00,#NAME?,31080.27,95.3%,14-Jul-23,"112,100",3484.1,23.9,UBS,-0.90%,"-226,267",Active,#NAME?,"JPY Premium - 31,417,146",#NAME?
+361,1-Jun-23,OTC - Stock,#NAME?,002050 CH,Sell,Put,CNY,#NAME?,22.49,#NAME?,24.99,90.0%,3-Jul-23,"68,300",1.7,0.2,MS,1.10%,"2,643",Active,#NAME?,"CNY Premium - 18,795",#NAME?
+362,2-Jun-23,OTC - Stock,#NAME?,301029 CH,Sell,Put,CNY,#NAME?,38.28,#NAME?,42.53,90.0%,3-Jul-23,"123,100",5.2,0.7,MS,0.65%,"4,813",Active,#NAME?,"CNY Premium - 34,050",#NAME?
+363,6-Jun-23,OTC - Stock,,UMG NA,Sell,Put,EUR,#NAME?,15.77,#NAME?,18.55,85.0%,21-Jul-23,"50,400",0.9,0.8,UBS,0.26%,"2,599",Active,#NAME?,EUR Premium - 2430.79,#NAME?
+364,6-Jun-23,OTC - Stock,,UMG NA,Sell,Put,EUR,#NAME?,16.70,#NAME?,18.55,90.0%,21-Jul-23,"50,400",0.9,0.9,UBS,0.60%,"5,997",Active,#NAME?,EUR Premium - 5609.52,#NAME?
+365,7-Jun-23,OTC - Stock,,RMS FP,Sell,Put,EUR,#NAME?,1608.57,#NAME?,1892.43,85.0%,7-Jul-23,990,1.9,1.7,UBS,0.27%,"5,419",Active,#NAME?,"EUR Premium - 5,058.9",#NAME?
+366,7-Jun-23,OTC - Stock,,RMS FP,Sell,Put,EUR,1986.00,1701.10,14.3%,1890.11,90.0%,16-Jun-23,990,1.9,1.8,UBS,0.16%,"3,207",Expired,0,"EUR Premium - 2,993.94",0
+367,7-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,30.28,27.22,10.1%,28.66,95.0%,9-Jun-23,"35,000",1.0,1.0,MS,0.17%,"1,705",Expired,0,,0
+368,7-Jun-23,Listed - Stock,,STAA US,Sell,Put,USD,52.61,45.00,14.5%,51.15,88.0%,16-Jun-23,"6,600",0.3,0.3,UBS,0.54%,"1,835",Expired,0,UBS listed options comms: 2.2 USD per lot,0
+369,8-Jun-23,OTC - Index,,NKA,Sell,Call,JPY,#NAME?,32500.00,#NAME?,31947.23,101.7%,14-Jul-23,"109,600",3501.4,25.5,UBS,1.58%,"399,668",Active,#NAME?,"JPY Premium -  55,937,538.40",#NAME?
+370,8-Jun-23,OTC - Index,,NKA,Buy,Put,JPY,#NAME?,30250.00,#NAME?,31947.18,94.7%,14-Jul-23,"219,200",7002.8,47.4,UBS,0.76%,"385,667",Active,#NAME?,"JPY Premium -  53,978,000.00",#NAME?
+371,9-Jun-23,OTC - Stock,#NAME?,688392 CH,Sell,Put,CNY,#NAME?,77.52,#NAME?,91.20,85.0%,11-Jul-23,"152,180",13.9,1.7,UBS,1.26%,"24,556",Active,#NAME?,"CNY Premium - 124,907",#NAME?
+372,9-Jun-23,Listed - Index,,NDX,Sell,Call,USD,#NAME?,14900.00,#NAME?,14555.00,102.4%,29-Jun-23,5,7.3,7.5,MS,0.69%,"49,990",Active,#NAME?,,#NAME?
+373,9-Jun-23,Listed - Index,,NDX,Sell,Call,USD,#NAME?,15000.00,#NAME?,14555.00,103.1%,29-Jun-23,5,7.3,7.5,MS,0.65%,"47,040",Active,#NAME?,,#NAME?
+374,9-Jun-23,Listed - Index,,NDX,Buy,Put,USD,#NAME?,14000.00,#NAME?,14555.00,96.2%,29-Jun-23,15,21.8,21.0,MS,-0.40%,"-87,481",Active,#NAME?,,#NAME?
+375,9-Jun-23,Listed - Index,,NDX,Sell,Call,USD,#NAME?,15000.00,#NAME?,14555.00,103.1%,30-Jun-23,5,7.3,7.5,MS,0.73%,"52,930",Active,#NAME?,,#NAME?
+376,9-Jun-23,Listed - Index,,NDX,Buy,Put,USD,#NAME?,13900.00,#NAME?,14555.00,95.5%,30-Jun-23,10,14.6,13.9,MS,-0.39%,"-56,661",Active,#NAME?,,#NAME?
+377,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,4409.59,4260.00,3.4%,4304.00,99.0%,16-Jun-23,50,21.5,21.3,MS,-0.27%,"-58,713",Expired,0,,0
+378,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,4425.84,4260.00,3.7%,4304.00,99.0%,15-Jun-23,50,21.5,21.3,MS,-0.30%,"-64,663",Expired,0,,0
+379,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,4425.84,4275.00,3.4%,4304.00,99.3%,15-Jun-23,50,21.5,21.4,MS,-0.29%,"-61,793",Expired,0,,0
+380,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4250.00,#NAME?,4304.00,98.7%,21-Jun-23,50,21.5,21.3,MS,-0.33%,"-71,233",Active,#NAME?,,#NAME?
+381,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4225.00,#NAME?,4304.00,98.2%,23-Jun-23,100,43.0,42.3,MS,-0.26%,"-110,205",Active,#NAME?,,#NAME?
+382,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4200.00,#NAME?,4304.00,97.6%,27-Jun-23,50,21.5,21.0,MS,-0.24%,"-51,442",Active,#NAME?,,#NAME?
+383,9-Jun-23,Listed - Index,,SPX,Sell,Call,USD,#NAME?,4380.00,#NAME?,4304.00,101.8%,29-Jun-23,10,4.3,4.4,MS,0.33%,"14,280",Active,#NAME?,,#NAME?
+384,9-Jun-23,Listed - Index,,SPX,Sell,Call,USD,#NAME?,4400.00,#NAME?,4304.00,102.2%,29-Jun-23,10,4.3,4.4,MS,0.35%,"14,980",Active,#NAME?,,#NAME?
+385,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4200.00,#NAME?,4304.00,97.6%,29-Jun-23,50,21.5,21.0,MS,-0.28%,"-60,893",Active,#NAME?,,#NAME?
+386,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4200.00,#NAME?,4304.00,97.6%,30-Jun-23,50,21.5,21.0,MS,-0.31%,"-66,203",Active,#NAME?,,#NAME?
+387,9-Jun-23,Listed - Index,,SPX,Sell,Call,USD,#NAME?,4400.00,#NAME?,4304.00,102.2%,11-Jul-23,50,21.5,22.0,MS,0.48%,"103,908",Active,#NAME?,,#NAME?
+388,9-Jun-23,Listed - Index,,SPX,Buy,Put,USD,#NAME?,4150.00,#NAME?,4304.00,96.4%,11-Jul-23,50,21.5,20.8,MS,-0.36%,"-76,453",Active,#NAME?,,#NAME?
+389,12-Jun-23,OTC - Stock,,PDD US,Sell,Call,USD,#NAME?,88.31,#NAME?,76.79,115.0%,12-Jul-23,"26,000",2.0,2.3,GS,1.60%,"31,945",Active,#NAME?,,#NAME?
+390,12-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,29.85,28.45,4.7%,29.95,95.0%,14-Jun-23,"33,300",1.0,0.9,MS,0.25%,"2,494",Expired,0,,0
+391,12-Jun-23,OTC - Stock,,SWAV US,Sell,Put,USD,#NAME?,271.89,#NAME?,285.90,95.1%,20-Jun-23,"7,000",2.0,1.9,MS,1.10%,"21,952",Active,#NAME?,,#NAME?
+392,12-Jun-23,OTC - Stock,,SWAV US,Buy,Call,USD,#NAME?,300.19,#NAME?,285.90,105.0%,20-Jun-23,"7,000",2.0,2.1,MS,-1.10%,"-21,952",Active,#NAME?,,#NAME?
+393,12-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,29.74,28.40,4.5%,29.85,95.1%,13-Jun-23,"33,449",1.0,0.9,UBS,0.15%,"1,488",Expired,0,,0
+394,12-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,29.85,28.40,4.9%,29.85,95.1%,14-Jun-23,"33,449",1.0,0.9,UBS,0.32%,"3,241",Expired,0,,0
+395,12-Jun-23,Listed - Stock,,NTES US,Sell,Call,USD,#NAME?,105.00,#NAME?,93.34,112.5%,21-Jul-23,"21,500",2.0,2.3,MS,1.20%,"24,080",Active,#NAME?,,#NAME?
+396,13-Jun-23,OTC - Stock,,SMCI US,Buy,Call,USD,#NAME?,256.20,#NAME?,244.00,105.0%,20-Jun-23,"4,098",1.0,1.0,UBS,-2.06%,"-20,604",Active,#NAME?,,#NAME?
+397,13-Jun-23,OTC - Stock,,SMCI US,Sell,Put,USD,#NAME?,229.97,#NAME?,244.00,94.3%,20-Jun-23,"4,098",1.0,0.9,UBS,2.06%,"20,604",Active,#NAME?,,#NAME?
+398,14-Jun-23,OTC - Stock,,ONON US,Buy,Call,USD,#NAME?,31.40,#NAME?,29.91,105.0%,21-Jun-23,"66,869",2.0,2.1,UBS,-0.85%,"-16,998",Active,#NAME?,,#NAME?
+399,14-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,#NAME?,28.80,#NAME?,29.91,96.3%,21-Jun-23,"66,869",2.0,1.9,UBS,0.85%,"16,998",Active,#NAME?,,#NAME?
+400,14-Jun-23,Listed - Stock,,EVO SS,Sell,Put,SEK,#NAME?,1260.00,#NAME?,1404.00,89.7%,21-Jul-23,100,0.1,0.0,MS,0.08%,108,Active,#NAME?,SEK Premium - 1150-4 = 1146,#NAME?
+401,15-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,29.93,28.02,6.4%,29.50,95.0%,16-Jun-23,"5,424",0.2,0.2,UBS,0.11%,182,Expired,0,,0
+402,15-Jun-23,OTC - Stock,,ONON US,Sell,Put,USD,#NAME?,28.02,#NAME?,29.50,95.0%,20-Jun-23,"5,424",0.2,0.2,UBS,0.26%,411,Active,#NAME?,,#NAME?
+403,15-Jun-23,OTC - Stock,,TMDX US,Sell,Put,USD,78.63,75.69,3.7%,79.68,95.0%,16-Jun-23,"12,550",1.0,0.9,UBS,0.10%,"1,000",Expired,0,,0
+404,15-Jun-23,OTC - Stock,,UMG NA,Sell,Call,EUR,#NAME?,23.00,#NAME?,20.05,114.7%,18-Aug-23,"92,004",1.8,2.3,MS,0.44%,"8,057",Active,#NAME?,EUR Premium - 7360.32,#NAME?
+405,15-Jun-23,Listed - Stock,,RMS FP,Sell,Put,EUR,#NAME?,1600.00,#NAME?,1934.00,82.7%,21-Jul-23,"1,000",1.9,1.8,MS,0.22%,"4,286",Active,#NAME?,EUR Premium - 3915.45,#NAME?
+406,15-Jun-23,Listed - Stock,,RMS FP,Sell,Put,EUR,#NAME?,1700.00,#NAME?,1934.00,87.9%,21-Jul-23,"1,000",1.9,1.9,MS,0.38%,"7,350",Active,#NAME?,EUR Premium - 6714.45,#NAME?
+407,16-Jun-23,Listed - Stock,,ADYEN NA,Sell,Put,EUR,#NAME?,1360.00,#NAME?,1590.00,85.5%,21-Jul-23,340,0.5,0.5,MS,0.38%,"2,067",Active,#NAME?,EUR Premium - 1887.24,#NAME?
