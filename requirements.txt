@@ -90,7 +90,7 @@ peewee==3.17.0
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
 pillow==10.2.0
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1682644429438/work
-plotly==5.19.0
+plotly==5.5.0
 prometheus_client==0.20.0
 prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1677600924538/work
 protobuf==4.25.3
