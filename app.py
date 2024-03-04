@@ -32,7 +32,8 @@ if 'logged_in' not in ss or not ss.logged_in:
             st.error("Incorrect username or password")
 else:
     # User is logged in, display the main app (or a logout button)
-    st.title(f"Welcome {ss.username}!")           
+    # st.title(f"Welcome {ss.username}!") 
+    pass
 
     # Load the data
     def load_data():
