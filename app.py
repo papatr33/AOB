@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
-
+from scipy.stats import norm
+from datetime import datetime, timedelta
+import numpy as np
 from streamlit import session_state as ss
 
 # Dummy user database
@@ -143,6 +144,147 @@ else:
         plot_for_ticker(sub_dfs[ticker], ticker)
 
 
+    def page3():
+        
+        # Black-Scholes Model
+        def black_scholes(S, K, T, r, sigma, option_type="call"):
+            """
+            Calculates the Black-Scholes option price for a call or put option.
+
+            Parameters:
+            S : float - Current stock price
+            K : float - Option strike price
+            T : float - Time to maturity in years
+            r : float - Risk-free interest rate
+            sigma : float - Volatility of the underlying asset
+            option_type : str - Either "call" or "put"
+
+            Returns:
+            float - Black-Scholes option price
+            """
+            d1 = (np.log(S / K) + (r + sigma**2 / 2) * T) / (sigma * np.sqrt(T))
+            d2 = d1 - sigma * np.sqrt(T)
+
+            if option_type == "call":
+                option_price = (S * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2))
+            elif option_type == "put":
+                option_price = (K * np.exp(-r * T) * norm.cdf(-d2) - S * norm.cdf(-d1))
+            return option_price
+
+
+        st.title("Option Payoff Matrix")
+
+        col1, col2, col3, col4 = st.columns(4)
+
+        # User input for BSM parameters
+        with col1:
+            S = st.number_input("Underlying Spot Price ($)", min_value=0.0, value=3800.0)
+        with col2:
+            K = st.number_input("Strike Price ($)", min_value=0.0, value=4000.0)
+        with col3:
+            r = st.number_input("Risk-Free Interest Rate (%)", min_value=0.0, value=5.0) / 100
+        with col4:
+            sigma_input = st.number_input("Sigma", min_value=0.0, value=50.0) / 100
+        # Slider for days to expiry
+        days_to_expiry = st.slider("Days to Expiry", min_value=1, max_value=365, value=30)
+        T = days_to_expiry / 365  # Convert days to years
+
+        col1, col2 = st.columns(2)
+        with col1:
+            option_type = st.selectbox("Option Type", ["call", "put"])
+        with col2:
+            trade_direction = st.selectbox("Trade Direction", ["buy", "sell"])
+        orginal_option_price = black_scholes(S, K, T,r,sigma_input, option_type)
+
+        col1, col2 = st.columns(2)
+        with col1:
+            # Slider for implied volatility (IV)
+            iv_slider = st.slider("Implied Volatility (IV) Change Range (%)", -50, 50, (-10, 10))
+            iv_step = st.slider("IV Step Size (%)", min_value=1, max_value=5, value=2)
+
+        with col2:
+            # Slider for underlying price movement
+            price_movement = st.slider("Underlying Price Movement Range (%)", -50, 50, (-10, 10))
+            price_step = st.slider("Underlying Price Step Size (%)", min_value=1, max_value=5, value=2)
+
+        st.divider() 
+
+        col1, col2 = st.columns(2)
+        col1.metric("Option Price in $", '$ '+ str(round(orginal_option_price,4)))
+        col2.metric("Option Price in %", str(round(orginal_option_price/S,6)*100)+' %')
+
+        st.divider() 
+        # Calculate matrices
+        iv_range = np.arange(iv_slider[0], iv_slider[1], iv_step) / 100
+        price_range = np.arange(price_movement[0], price_movement[1], price_step) / 100
+
+        price_matrix = []
+        payoff_matrix = []
+
+
+
+        iv_list = [round(sigma_input + iv,2) for iv in iv_range]
+        price_list = [round(S * (1+ price ),2) for price in price_range]
+
+        if st.button('Calculate'):
+            
+            # st.balloons()
+
+            for iv in iv_list:
+
+                price_row =[]
+                payoff_row = []
+                
+                for price in price_list:
+
+                    option_price = black_scholes(price,K,T,r,iv,option_type)
+
+                    price_row.append(option_price / S * 100)
+
+                    if trade_direction == "buy":
+                            payoff = option_price / orginal_option_price
+
+                    elif trade_direction == "sell":
+                            payoff = 1 - option_price / orginal_option_price if option_price < orginal_option_price else - option_price / orginal_option_price 
+
+                    payoff_row.append(payoff)
+
+                price_matrix.append(price_row)
+                payoff_matrix.append(payoff_row)
+
+            z = price_matrix
+            z_text = price_matrix
+
+            k = payoff_matrix
+            k_text = payoff_matrix
+
+            x=[str('$')+str(o)+"." for o in price_list]
+            y=[str(o)+str(' %.') for o in iv_list]
+
+            fig_price = px.imshow(z, 
+                            x=x, 
+                            y=y, 
+                            color_continuous_scale='Aggrnyl', 
+                            aspect="auto",
+                            text_auto='.2f',
+                            labels=dict(x="Underlying Price", y="IV (%)", color="Option Price (%)")
+            )
+            fig_price.update_xaxes(side="top")
+
+            fig_payoff = px.imshow(k,
+                                x = x,
+                                y = y,
+                                color_continuous_scale='Aggrnyl',
+                                aspect="auto",
+                                text_auto='.2f',
+                                labels=dict(x="Underlying Price", y="IV (%)", color="Payoff Multiple (x)"))
+            fig_payoff.update_xaxes(side="top")
+
+            st.plotly_chart(fig_price)
+            st.plotly_chart(fig_payoff)
+
+
+
     # Main function to set up the Streamlit app
     def main():
         # Load the CSV file into a DataFrame
@@ -157,7 +299,7 @@ else:
 
         # Set up sidebar navigation
         st.sidebar.title("Apeiron Options Book")
-        page = st.sidebar.selectbox("", ("Options by Expiry", "Options by Tickers"))
+        page = st.sidebar.selectbox("", ("Options by Expiry", "Options by Tickers","Options Calculator"))
         st.sidebar.success("Select a page above.")
 
 
@@ -166,10 +308,11 @@ else:
             page1(df)
         elif page == "Options by Tickers":
             page2(sub_dfs)
+        elif page == "Options Calculator":
+            page3()
 
     if __name__ == "__main__":
         main()# Load the data
-
 
 
 
