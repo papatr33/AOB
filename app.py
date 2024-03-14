@@ -277,7 +277,7 @@ else:
             k_text = payoff_matrix
 
             x=[str('$')+str(o)+"." for o in price_list]
-            y=[str(o)+str(' %.') for o in iv_list]
+            y=[str(o * 100)+str(' %.') for o in iv_list]
 
             fig_price = px.imshow(z, 
                             x=x, 
