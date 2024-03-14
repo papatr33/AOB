@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from scipy.stats import norm
 from datetime import datetime, timedelta
+from datetime import date
 import numpy as np
 from streamlit import session_state as ss
 
@@ -185,9 +186,18 @@ else:
             r = st.number_input("Risk-Free Interest Rate (%)", min_value=0.0, value=5.0) / 100
         with col4:
             sigma_input = st.number_input("Sigma", min_value=0.0, value=50.0) / 100
-        # Slider for days to expiry
-        days_to_expiry = st.slider("Days to Expiry", min_value=1, max_value=365, value=30)
-        T = days_to_expiry / 365  # Convert days to years
+
+        # User selects the expiry date using Streamlit's date_input
+        expiry_date = st.date_input("Expiry Date")
+
+        # Get the current date
+        current_date = date.today()
+
+        # Calculate the difference between expiry_date and current_date
+        time_to_expiry = expiry_date - current_date
+
+        # Get the number of days from the resulting timedelta object
+        T = time_to_expiry.days / 365
 
         col1, col2 = st.columns(2)
         with col1:
@@ -226,9 +236,16 @@ else:
         iv_list = [round(sigma_input + iv,2) for iv in iv_range]
         price_list = [round(S * (1+ price ),2) for price in price_range]
 
+        #change days left
+        days_to_expiry = st.slider("Days Left to Expiry", min_value=1, max_value=100, value=14)
+        T = days_to_expiry / 365  # Convert days to years
+
         if st.button('Calculate'):
             
             # st.balloons()
+
+
+            
 
             for iv in iv_list:
 
@@ -313,7 +330,6 @@ else:
 
     if __name__ == "__main__":
         main()# Load the data
-
 
 
 
