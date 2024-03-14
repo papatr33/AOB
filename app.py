@@ -237,7 +237,8 @@ else:
         price_list = [round(S * (1+ price ),2) for price in price_range]
 
         #change days left
-        days_to_expiry = st.slider("Days Left to Expiry", min_value=1, max_value=100, value=14)
+        def_day = time_to_expiry.days
+        days_to_expiry = st.slider("Days Left to Expiry", min_value=1, max_value=100, value=def_day)
         T = days_to_expiry / 365  # Convert days to years
 
         if st.button('Calculate'):
