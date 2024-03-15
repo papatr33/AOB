@@ -74,6 +74,15 @@ else:
         # Filter the DataFrame based on the selected expiry
         expiry_df = active_df[active_df['Expiry Date'].dt.strftime('%Y-%m-%d') == selected_expiry]
 
+        # Filter the DataFrame with options that are in the money
+        expiry_df['% to Strike'] = expiry_df['% to Strike'].str.rstrip('%').astype(float)
+        ITM_df = expiry_df[expiry_df['% to Strike']<0]
+
+        ITM_df = ITM_df[['Ticker','Option Type','Strike','Spot Price','% to Strike','Quantity','Notl (Local)']]
+
+        # Reset the index of the DataFrame without adding a new column with the old index
+        ITM_df.reset_index(drop=True, inplace=True)
+
         # Define color mapping for the different option types
         option_types_color = {
             'Sell Call': '#E74C3C',  # Lighter red
@@ -114,6 +123,8 @@ else:
         with st.container():
             st.write("## Options Notional Size by Ticker")  # Title for the chart
             st.plotly_chart(fig, use_container_width=True)  # Set to True to use the full width of the container
+            st.divider()
+            st.dataframe(data=ITM_df)
 
     # Function to plot the graph for a specific ticker and expiry
     def plot_for_ticker(df, ticker):
