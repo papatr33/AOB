@@ -185,7 +185,7 @@ else:
         with col3:
             r = st.number_input("Risk-Free Interest Rate (%)", min_value=0.0, value=5.0) / 100
         with col4:
-            sigma_input = st.number_input("Sigma", min_value=0.0, value=50.0) / 100
+            sigma_input = st.number_input("IV (%)", min_value=0.0, value=50.0) / 100
 
         # User selects the expiry date using Streamlit's date_input
         expiry_date = st.date_input("Expiry Date")
