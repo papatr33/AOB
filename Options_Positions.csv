@@ -1,4 +1,4 @@
-﻿No.,Trade Date,Type,Ticker,Direction,Call/Put,Currency,Spot Price,% to Strike,Strike,Ref Price,Strike %,Expiry Date,DTE,Quantity,Notl (Local),Notl ($),Delta Notl,Broker,% Premium,Status,Premium ($),Delivery PnL,Combined PnL,Strategy,Notes,FX,Cum Premium
+﻿s,Trade Date,Type,Ticker,Direction,Call/Put,Currency,Spot Price,% to Strike,Strike,Ref Price,Strike %,Expiry Date,DTE,Quantity,Notl (Local),Notl ($),Delta Notl,Broker,% Premium,Status,Premium ($),Delivery PnL,Combined PnL,Strategy,Notes,FX,Cum Premium
 1,17-Aug-22,OTC - Stock,300012 CH,Sell,Put,CNY,20.89,4%,20.00,20.9037,95.7%,19-Sep-22,0,"1,227,800",$25.67,$3.52,,MS,1.78%,Expired,"$67,283",$0,"$67,283",,,0.142755175,"$67,283"
 2,18-Aug-22,OTC - Stock,300012 CH,Sell,Put,CNY,20.95,5%,20.00,20.1962,99.0%,19-Sep-22,0,"437,200",$8.83,$1.25,,MS,2.95%,Expired,"$38,386",$0,"$38,386",,,0.142755175,"$105,669"
 3,26-Aug-22,OTC - Stock,ONON US,Sell,Put,USD,16.56,-11%,18.66,20.7369,90.0%,26-Sep-22,0,"240,000",$4.98,$4.48,,MS,2.15%,Exercised,"$106,992","-$504,000","-$397,008",,,1,"$212,661"
@@ -912,3 +912,6 @@
 909,4-Apr-24,Listed - Stock,MSTR US,Sell,Call,USD,1615.42,24%,2000,1700.0,117.6%,12-Apr-24,4,"1,200",$2.04,$2.40,-$0.34,UBS,3.17%,Active,"$64,751",$0,"$64,751",,,1,"$6,804,335"
 910,4-Apr-24,Listed - Stock,HDB US,Sell,Put,USD,59.28,8%,55,60.0,91.7%,17-May-24,39,"45,000",$2.70,$2.48,$0.48,UBS,0.81%,Active,"$21,802",$0,"$21,802",,,1,"$6,826,137"
 911,5-Apr-24,Listed - Stock,STAA US,Sell,Call,USD,45.51,21%,55,48.0,114.6%,17-May-24,39,"40,000",$1.92,$2.20,-$0.52,UBS,3.66%,Active,"$70,358",$0,"$70,358",,,1,"$6,896,495"
+912,3-Apr-24,Listed - Stock,ADYEN NA,Sell,Put,EUR,1543.00,3%,1500,1550.0,96.8%,19-Apr-24,11,600,$0.93,$0.90,$0.23,MS,1.21%,Active,"$11,276",$0,"$11,276",,,1.0815,"$6,907,772"
+913,3-Apr-24,Listed - Stock,BESI NA,Sell,Put,EUR,151.05,8%,140,155.0,90.3%,19-Apr-24,11,"18,000",$2.79,$2.52,$0.84,MS,1.51%,Active,"$42,055",$0,"$42,055",,,1.0815,"$6,949,827"
+914,3-Apr-24,Listed - Stock,UMG NA,Sell,Put,EUR,27.77,7%,26,27.0,96.3%,19-Apr-24,11,"31,300",$0.85,$0.81,$0.14,MS,0.93%,Active,"$7,845",$0,"$7,845",,,1.0815,"$6,957,672"
