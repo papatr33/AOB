@@ -289,53 +289,106 @@ def page4(df):
 
     # Filter the DataFrame for active positions and exclude certain tickers
     active_positions = df[(df['Status'] == 'Active') & (~df['Ticker'].isin(['NKA', 'NDX']))]
-
-    # Use the absolute value for each notional
-    active_positions['Notl ($)'] = active_positions['Notl ($)'].abs()
+    abs_active_positions = df[(df['Status'] == 'Active') & (~df['Ticker'].isin(['NKA', 'NDX']))]
+    
+    abs_active_positions['Notl ($)'] = abs_active_positions['Notl ($)'].abs()
 
     # Group by 'Ticker' and sum the 'Notl ($)' for combined notional
-    combined_notional = active_positions.groupby('Ticker')['Notl ($)'].sum().reset_index()
+    combined_notional = abs_active_positions.groupby('Ticker')['Notl ($)'].sum().reset_index()
 
     # Calculate the overall notional of all active positions
     overall_notional = combined_notional['Notl ($)'].sum()
-    
-    def plot_notional_bar_chart(combined_notional):
-        # Plot using Plotly Express
-        fig = px.bar(
-            combined_notional,
-            x='Ticker',
-            y='Notl ($)',
-            title='Combined Notional by Ticker',
-            labels={'Notl ($)': 'Notional Size ($)', 'Ticker': 'Ticker Names'},
-            color='Notl ($)',  # Color the bars by their size
-            text='Notl ($)'  # Display the notional size on the bars
-        )
 
-        # Customize the layout
+    # Group by both 'Ticker' and 'Option Type' for the additional graph
+    combined_notional_by_option_type = active_positions.groupby(['Ticker', 'Option Type'])['Notl ($)'].sum().reset_index()
+
+    # Calculate the overall combined absolute notional for call options
+    overall_call_notional = active_positions[
+        (active_positions['Call/Put'] == 'Call')
+    ]['Notl ($)'].abs().sum()
+
+    # Calculate the overall combined absolute notional for put options
+    overall_put_notional = active_positions[
+        (active_positions['Call/Put'] == 'Put')
+    ]['Notl ($)'].abs().sum()
+
+    # Define a function to create a bar chart
+    def plot_notional_bar_chart(data, x, y, color, title):
+        fig = px.bar(
+            data,
+            x=x,
+            y=y,
+            color=color,
+            title=title,
+            labels={y: 'Notional Size ($)', x: 'Ticker Names'},
+            text=y  # Display the notional size on the bars
+        )
         fig.update_layout(
             xaxis_title='Ticker',
             yaxis_title='Notional Size ($)',
-            xaxis_tickangle=-45,  # Rotate the tick labels for better readability
-            yaxis=dict(type='linear'),  # Use a linear scale for the y-axis
-            plot_bgcolor='white',  # Set background color to white
-            yaxis_tickprefix='$',  # Add dollar sign to y-axis ticks
-            yaxis_tickformat=',',  # Add commas as thousands separators
+            xaxis_tickangle=-45,
+            yaxis=dict(type='linear'),
+            plot_bgcolor='white',
+            yaxis_tickprefix='$',
+            yaxis_tickformat=',',
         )
-
-        # Customize the bar text
         fig.update_traces(
-            texttemplate='%{text:.2s}',  # Format the text with 2 significant digits
-            textposition='outside'  # Place the text above the bars
+            texttemplate='%{text:.2s}',
+            textposition='outside'
         )
-
         return fig
 
-    fig = plot_notional_bar_chart(combined_notional)
-    st.plotly_chart(fig, use_container_width=True)
+    # Plot the first graph for combined notional by ticker
+    fig1 = plot_notional_bar_chart(combined_notional, 'Ticker', 'Notl ($)', None, 'Combined Notional by Ticker')
+    st.plotly_chart(fig1, use_container_width=True)
+
+    
+    # Define color mapping for the different option types
+    option_types_color = {
+        'Sell Call': '#E74C3C',  # Lighter red
+        'Buy Put': '#C0392B',    # Darker red
+        'Sell Put': '#2ECC71',   # Lighter green
+        'Buy Call': '#27AE60'    # Darker green
+    }
+
+
+    # Plotly bar chart
+    fig2 = px.bar(
+        combined_notional_by_option_type,
+        x='Ticker',
+        y='Notl ($)',
+        color='Option Type',  # Use 'Option Type' to determine the color
+        color_discrete_map=option_types_color,  # Map 'Option Type' to the colors
+        labels={'Notl ($)': 'Notional Size'},
+        hover_data={'Ticker': True, 'Notl ($)': ':.2f', 'Option Type': True}
+    )
+
+    # Customize hover data to show option type instead of color
+    fig2.update_traces(
+        hovertemplate="<br>".join([
+            "Ticker: %{x}",
+            "Notional Size: %{y:.2f}",
+        ]),
+        # text=expiry_df['Option Type']  # This will display the option type on hover
+    )
+
+    fig2.update_layout(
+        width=800,
+        height=800
+    )
+
+    st.plotly_chart(fig2)
 
     # Display the metric for the overall notional
-    st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
-
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
+    with col2:
+        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}")
+    with col3:
+        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}")
+    
+    
 
 # Main function to set up the Streamlit app
 def main():
