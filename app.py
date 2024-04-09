@@ -284,6 +284,57 @@ def page3():
         st.plotly_chart(fig_price)
         st.plotly_chart(fig_payoff)
 
+def page4(df):
+    st.title("Active Positions Notional")
+
+    # Filter the DataFrame for active positions and exclude certain tickers
+    active_positions = df[(df['Status'] == 'Active') & (~df['Ticker'].isin(['NKA', 'NDX']))]
+
+    # Use the absolute value for each notional
+    active_positions['Notl ($)'] = active_positions['Notl ($)'].abs()
+
+    # Group by 'Ticker' and sum the 'Notl ($)' for combined notional
+    combined_notional = active_positions.groupby('Ticker')['Notl ($)'].sum().reset_index()
+
+    # Calculate the overall notional of all active positions
+    overall_notional = combined_notional['Notl ($)'].sum()
+    
+    def plot_notional_bar_chart(combined_notional):
+        # Plot using Plotly Express
+        fig = px.bar(
+            combined_notional,
+            x='Ticker',
+            y='Notl ($)',
+            title='Combined Notional by Ticker',
+            labels={'Notl ($)': 'Notional Size ($)', 'Ticker': 'Ticker Names'},
+            color='Notl ($)',  # Color the bars by their size
+            text='Notl ($)'  # Display the notional size on the bars
+        )
+
+        # Customize the layout
+        fig.update_layout(
+            xaxis_title='Ticker',
+            yaxis_title='Notional Size ($)',
+            xaxis_tickangle=-45,  # Rotate the tick labels for better readability
+            yaxis=dict(type='linear'),  # Use a linear scale for the y-axis
+            plot_bgcolor='white',  # Set background color to white
+            yaxis_tickprefix='$',  # Add dollar sign to y-axis ticks
+            yaxis_tickformat=',',  # Add commas as thousands separators
+        )
+
+        # Customize the bar text
+        fig.update_traces(
+            texttemplate='%{text:.2s}',  # Format the text with 2 significant digits
+            textposition='outside'  # Place the text above the bars
+        )
+
+        return fig
+
+    fig = plot_notional_bar_chart(combined_notional)
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Display the metric for the overall notional
+    st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
 
 
 # Main function to set up the Streamlit app
@@ -300,7 +351,7 @@ def main():
 
     # Set up sidebar navigation
     st.sidebar.title("Apeiron Options Book")
-    page = st.sidebar.selectbox("", ("Options by Expiry", "Options by Tickers","Options Calculator"))
+    page = st.sidebar.selectbox("", ("Options by Expiry", "Options by Tickers","Options Calculator","Overall Notionals"))
     st.sidebar.success("Select a page above.")
 
 
@@ -311,6 +362,8 @@ def main():
         page2(sub_dfs)
     elif page == "Options Calculator":
         page3()
+    elif page == "Overall Notionals":
+        page4(df)
 
 if __name__ == "__main__":
     main()# Load the data
