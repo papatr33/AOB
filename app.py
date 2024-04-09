@@ -384,9 +384,9 @@ def page4(df):
     with col1:
         st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
     with col2:
-        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}")
+        st.metric(label="Total Call Options Notional", value="$" + str(round(overall_call_notional,2)) + "m")
     with col3:
-        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}")
+        st.metric(label="Total Put Options Notional", value="$" + str(round(overall_put_notional,2)) + "m")
     
     
 
