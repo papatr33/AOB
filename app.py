@@ -47,12 +47,13 @@ def page1(df):
 
     # Filter the DataFrame with options that are in the money
     expiry_df['% to Strike'] = expiry_df['% to Strike'].str.rstrip('%').astype(float)
-    ITM_df = expiry_df[expiry_df['% to Strike']<0]
 
-    ITM_df = ITM_df[['Ticker','Option Type','Strike','Spot Price','% to Strike','Quantity','Notl (Local)']]
+    my_df = expiry_df[['Ticker','Option Type','Strike','Spot Price','% to Strike','Quantity','Notl (Local)']]
+    # Using np.where to add the 'Status' column with conditions
+    my_df['Status'] = np.where(my_df['% to Strike'] <= 0, 'ITM', 'OTM')
 
     # Reset the index of the DataFrame without adding a new column with the old index
-    ITM_df.reset_index(drop=True, inplace=True)
+    my_df.reset_index(drop=True, inplace=True)
 
     # Define color mapping for the different option types
     option_types_color = {
@@ -96,7 +97,7 @@ def page1(df):
         st.plotly_chart(fig, use_container_width=True)  # Set to True to use the full width of the container
         st.divider()
         st.write("ITM options for this expiry")
-        st.dataframe(data=ITM_df)
+        st.dataframe(data=my_df)
 
 # Function to plot the graph for a specific ticker and expiry
 def plot_for_ticker(df, ticker):
@@ -384,9 +385,9 @@ def page4(df):
     with col1:
         st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
     with col2:
-        st.metric(label="Total Call Options Notional", value="$" + str(round(overall_call_notional,2)) + "m")
+        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}")
     with col3:
-        st.metric(label="Total Put Options Notional", value="$" + str(round(overall_put_notional,2)) + "m")
+        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}")
     
     
 
