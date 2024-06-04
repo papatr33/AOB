@@ -324,36 +324,19 @@ def page4(df):
             labels={y: 'Notional Size ($)', x: 'Ticker Names'},
             text=y  # Display the notional size on the bars
         )
-    
-        # Custom function to format tick labels
-        def format_tick_label(value):
-            if value >= 1e6:
-                return f"{value / 1e6:.2f}M"
-            elif value >= 1e3:
-                return f"{value / 1e3:.2f}k"
-            else:
-                return f"{value:.2f}"
-    
         fig.update_layout(
             xaxis_title='Ticker',
             yaxis_title='Notional Size ($)',
             xaxis_tickangle=-45,
-            yaxis=dict(type='linear', tickformat='.2s', tickprefix='$'),
+            yaxis=dict(type='linear'),
             plot_bgcolor='white',
-            yaxis_tickformat=',',
             yaxis_tickprefix='$',
-            yaxis_tickformatstops=[
-                dict(dtickrange=[0, 1e3], value='.2f'),
-                dict(dtickrange=[1e3, 1e6], value='.2s', suffix='k'),
-                dict(dtickrange=[1e6, None], value='.2s', suffix='M')
-            ]
+            yaxis_tickformat=',',
         )
-    
         fig.update_traces(
-            texttemplate='%{text:$,.2f}',
+            texttemplate='%{text:.2s}',
             textposition='outside'
         )
-    
         return fig
 
     # Plot the first graph for combined notional by ticker
