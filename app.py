@@ -383,7 +383,7 @@ def page4(df):
     # Display the metric for the overall notional
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "k")
+        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
     with col2:
         st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}")
     with col3:
