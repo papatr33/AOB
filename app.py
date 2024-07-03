@@ -339,6 +339,16 @@ def page4(df):
         )
         return fig
 
+    # Display the metric for the overall notional
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
+    with col2:
+        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}" + "m")
+    with col3:
+        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}" + "m")
+    
+
     # Plot the first graph for combined notional by ticker
     fig1 = plot_notional_bar_chart(combined_notional, 'Ticker', 'Notl ($)', None, 'Combined Notional by Ticker')
     st.plotly_chart(fig1, use_container_width=True)
@@ -352,15 +362,7 @@ def page4(df):
         'Buy Call': '#27AE60'    # Darker green
     }
 
-    # Display the metric for the overall notional
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
-    with col2:
-        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}" + "m")
-    with col3:
-        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}" + "m")
-    
+
 
     # Plotly bar chart
     fig2 = px.bar(
