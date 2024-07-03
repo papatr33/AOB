@@ -352,6 +352,15 @@ def page4(df):
         'Buy Call': '#27AE60'    # Darker green
     }
 
+    # Display the metric for the overall notional
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
+    with col2:
+        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}" + "m")
+    with col3:
+        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}" + "m")
+    
 
     # Plotly bar chart
     fig2 = px.bar(
@@ -380,15 +389,7 @@ def page4(df):
 
     st.plotly_chart(fig2)
 
-    # Display the metric for the overall notional
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric(label="Total Notional", value="$" + str(round(overall_notional,2)) + "m")
-    with col2:
-        st.metric(label="Total Call Options Notional", value=f"${overall_call_notional:,.2f}" + "m")
-    with col3:
-        st.metric(label="Total Put Options Notional", value=f"${overall_put_notional:,.2f}" + "m")
-    
+
     
 
 # Main function to set up the Streamlit app
